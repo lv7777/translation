@@ -1,0 +1,1231 @@
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+  
+    
+  
+
+  
+  <title>記事の翻訳 | permissions | MDN</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="home" href="/ja/">
+  <link rel="copyright" href="#copyright">
+
+  
+    
+    
+    <link href="https://developer.cdn.mozilla.net/static/build/styles/mdn.90e6d84d58ff.css" rel="stylesheet" type="text/css">
+
+    
+  
+    <link href="https://developer.cdn.mozilla.net/static/build/styles/wiki.978c53db5cdd.css" rel="stylesheet" type="text/css">
+
+    
+
+    <link href="https://developer.cdn.mozilla.net/static/build/styles/wiki-edit.be864817fe03.css" rel="stylesheet" type="text/css">
+    <link href="https://developer.cdn.mozilla.net/static/build/styles/jquery-ui.c08daff10f3e.css" rel="stylesheet" type="text/css">
+
+
+  <!-- common social tags -->
+  
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png">
+  <meta property="og:site_name" content="Mozilla Developer Network">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png">
+  <meta name="twitter:site" content="@MozDevNet">
+  <meta name="twitter:creator" content="@MozDevNet">
+
+  <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/ja/search/xml" title="Mozilla Developer Network">
+
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://developer.cdn.mozilla.net/static/img/favicon144.a6e4162070f4.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://developer.cdn.mozilla.net/static/img/favicon114.0e9fabd44f85.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://developer.cdn.mozilla.net/static/img/favicon72.8ff9d87c82a0.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="https://developer.cdn.mozilla.net/static/img/favicon57.a2490b9a2d76.png">
+  <!-- basic favicon -->
+  
+    
+  
+  <link rel="shortcut icon" href="https://developer.cdn.mozilla.net/static/img/favicon32.e02854fdcf73.png">
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+
+  
+  <link href="https://developer.cdn.mozilla.net/static/build/styles/home.c13357a0d845.css" rel="stylesheet" type="text/css">
+
+
+  
+    
+
+<script type="text/javascript">
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-36116321-5', 'mozilla.org');
+    ga('set', 'anonymizeIp', true);
+
+    
+        // dimension1 == 'Signed-In"
+        ga('set', 'dimension1', 'Yes');
+
+        // dimension2 == "Beta Tester"
+        
+            ga('set', 'dimension2', 'Yes');
+        
+    
+
+    // dimension9 == "Section editing"
+    
+        ga('set', 'dimension9', 'Enabled');
+    
+
+    (function() {
+        // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+        var win = window;
+        var removeUtms = function(){
+            var location = win.location;
+            if (location.href.indexOf('utm') != -1 && win.history.replaceState) {
+                win.history.replaceState({}, '', location.pathname);
+            }
+        };
+
+        ga('send', 'pageview', {'hitCallback': removeUtms});
+    })();
+</script>
+
+  
+<style>.cke{visibility:hidden;}</style><script async="" data-manual="true" src="https://developer.cdn.mozilla.net/static/build/js/syntax-prism.7a66ddfa68bf.js"></script><script type="text/javascript" src="/en-US/docs/ckeditor_config.js?t=F97K"></script></head>
+<body class="translate" data-login-service="github">
+
+  <script type="text/javascript">
+    (function(win) {
+        'use strict';
+
+        
+            (function(){
+  var FLAGS = {
+    'compat_api': true,'kumaediting': true,'page_move': false,'registration_disabled': true,'search_suggestions': false,'section_edit': true,'spam_checks_enabled': false,'spam_submissions_enabled': false,'wiki_samples': true,'wiki_spam_exempted': false
+    },
+    SWITCHES = {
+    'wiki_error_on_delete': false,'wiki_force_immediate_rendering': false,'enable_optimizely': false,'welcome_email': true,'application_ACAO': true,'store_revision_ips': true,'dumb_doc_urls': true
+    },
+    SAMPLES = {
+    
+    };
+  window.waffle = {
+    "flag_is_active": function waffle_flag(flag_name) {
+      
+      return !!FLAGS[flag_name];
+    },
+    "switch_is_active": function waffle_switch(switch_name) {
+      
+      return !!SWITCHES[switch_name];
+    },
+    "sample_is_active": function waffle_sample(sample_name) {
+      
+      return !!SAMPLES[sample_name];
+    },
+    "FLAGS": FLAGS,
+    "SWITCHES": SWITCHES,
+    "SAMPLES": SAMPLES
+  };
+})();
+
+        
+
+        // This needs to be set before ckeditor.js loads
+        window.CKEDITOR_BASEPATH = '/static/js/libs/ckeditor/build/ckeditor/';
+
+        // This represents the site configuration
+        win.mdn = {
+            // Properties and settings for CKEditor will go here
+            ckeditor: {},
+            // Feature test results and methods will be placed here
+            features: {},
+            // The path to static assets (images, CSS, JS) in MDN
+            staticPath: 'https://developer.cdn.mozilla.net/static/',
+            // Optimizely API
+            optimizely: win['optimizely'] || [],
+            // Site notifications
+            
+            notifications: [],
+            
+            // Wiki-specific settings will be placed here
+            wiki: {
+                autosuggestTitleUrl: '/ja/docs/get-documents'
+            },
+            // Assets that need to be dynamically injected
+            assets: {
+                css: {
+                    'editor-content': ['https://developer.cdn.mozilla.net/static/build/styles/editor-content.7071b9762085.css',],
+                    'wiki-compat-tables': ['https://developer.cdn.mozilla.net/static/build/styles/wiki-compat-tables.f3a3bfce97a1.css',]
+                },
+                js: {
+                    'syntax-prism': ['https://developer.cdn.mozilla.net/static/build/js/syntax-prism.7a66ddfa68bf.js',],
+                    'wiki-compat-tables': ['https://developer.cdn.mozilla.net/static/build/js/wiki-compat-tables.14ce5dcb2c3d.js',]
+                }
+            }
+        };
+    })(this);
+</script>
+
+  
+  <div class="global-notice">
+    <div class="wrap center">
+      
+        <p><bdi>Creation of new accounts on MDN is unavailable until further notice. Sorry for the inconvenience! If you see something that needs to be fixed, please file a bug: <a href="https://bugzilla.mozilla.org/form.doc">https://bugzilla.mozilla.org/form.doc</a></bdi></p>
+      
+    </div>
+  </div>
+
+
+  <ul id="nav-access">
+    <li><a href="#content" id="skip-main">メインコンテンツへ移動</a></li>
+    <li><a id="skip-language" href="#language">言語の選択</a></li>
+    
+      <li><a href="#q" id="skip-search">検索へ移動</a></li>
+    
+  </ul>
+
+  <!-- Header -->
+  <header id="main-header"><div class="center">
+
+    <div id="tabzilla">
+        <a href="//www.mozilla.org/" class="no-track">mozilla</a>
+    </div>
+
+    <div class="clear header-clear"></div>
+
+
+    <a href="/ja/" class="logo">Mozilla Developer Network</a>
+
+
+    <div id="nav-sec">
+        
+                  <ul>
+                  
+                      <li class="nav-tools"><a href="/ja/docs/MDN/Doc_status">ツール<i aria-hidden="true" class="icon-caret-down"></i></a>
+
+                      <div class="submenu submenu-cols-2 js-submenu" id="nav-tools-submenu">
+                        <div class="submenu-column">
+                          <div class="title">MDN に貢献する</div>
+                          <ul>
+                            <li><a href="/ja/docs/MDN/Getting_started">入門編</a></li>
+                            <li><a href="/ja/docs/MDN/Doc_status">ドキュメントをレビューもしくはローカライズ</a></li>
+                          </ul>
+                        </div><div class="submenu-column last">
+                          <div class="title">サイトツール</div>
+                          <ul>
+                            <li><a href="/ja/dashboards/revisions">リビジョンダッシュボード</a></li>
+                            <li><a href="/ja/docs/MDN/Doc_status">ドキュメンテーション翻訳状況</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                   </li><li>
+    <div class="oauth-logged-in">
+        
+    <i aria-hidden="true" class="icon-github" title="GitHubでログイン"></i>
+
+        <ul>
+            <li><a href="/ja/profiles/lv7777" class="oauth-logged-in-user">lv7777</a></li>
+            <li><a href="/ja/users/signout?next=/ja/Add-ons/WebExtensions/manifest.json/permissions$edit" class="oauth-logged-in-signout">ログアウト</a></li>
+        </ul>
+    </div>
+</li>
+                </ul>
+        
+    </div>
+
+    <nav id="main-nav" role="navigation"><ul><li><a href="/ja/docs/Web">Web プラットフォーム<i aria-hidden="true" class="icon-caret-down"></i></a>
+
+        <div class="submenu submenu-cols-2 js-submenu" id="nav-platform-submenu">
+          <div class="submenu-column">
+            <div class="title">テクノロジ</div>
+            <ul>
+              <li><a href="/ja/docs/Web/HTML">HTML</a></li>
+              <li><a href="/ja/docs/Web/CSS">CSS</a></li>
+              <li><a href="/ja/docs/Web/JavaScript">JavaScript</a></li>
+              <li><a href="/ja/docs/Web/Guide/Graphics">グラフィクス</a></li>
+              <li><a href="/ja/docs/Web/API">API / DOM</a></li>
+              <li><a href="/ja/docs/Web/Apps">Apps</a></li>
+              <li><a href="/ja/docs/Web/MathML">MathML</a></li>
+            </ul>
+          </div><div class="submenu-column last">
+            <div class="title">リファレンスとガイド</div>
+            <ul>
+              <li><a href="/ja/docs/Learn">Web サイトの作り方を学ぶ</a></li>
+              <li><a href="/ja/docs/Web/Tutorials">チュートリアル</a></li>
+              <li><a href="/ja/docs/Web/Reference">レファレンス</a></li>
+              <li><a href="/ja/docs/Web/Guide">開発者ガイド</a></li>
+              <li><a href="/ja/docs/Web/Accessibility">アクセシビリティ</a></li>
+              <li><a href="/ja/docs/Web">...さらに見る</a></li>
+            </ul>
+          </div>
+        </div>
+      </li><li><a href="/ja/docs/Zones">Mozilla Docs<i aria-hidden="true" class="icon-caret-down"></i></a>
+
+        <div class="submenu js-submenu" id="nav-zones-submenu">
+          <div class="submenu-column">
+            <ul>
+              <li><a href="/ja/docs/Mozilla/Add-ons">アドオン</a></li>
+              <li><a href="/ja/docs/Firefox">Firefox</a></li>
+              <li><a href="/ja/docs/Mozilla/Marketplace">Firefox Marketplace</a></li>
+              <li><a href="/ja/docs/Firefox_OS">Firefox OS</a></li>
+              <li><a href="/ja/docs/Persona">Persona</a></li>
+            </ul>
+          </div>
+        </div>
+      </li><li><a href="/ja/docs/Tools">開発者ツール</a></li><li><a href="/ja/docs/MDN/Feedback">フィードバック<i aria-hidden="true" class="icon-caret-down"></i></a>
+
+        <div class="submenu js-submenu" id="nav-contact-submenu">
+          <div class="submenu-column">
+            <ul>
+                <li><a href="https://support.mozilla.org/">Firefox のサポートを得る<i aria-hidden="true" class="icon-external-link"></i></a></li>
+                <li><a href="http://stackoverflow.com/">Web 開発のサポートを得る<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+            <ul>
+              <li><a href="/ja/docs/MDN/Community">MDN コミュニティに参加</a></li>
+              <li><a href="https://bugzilla.mozilla.org/form.doc">コンテンツの問題を報告する<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a href="https://bugzilla.mozilla.org/form.mdn">バグを報告する<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </li><li class="nav-search-link"><a href="/ja/search" title="Search"><i aria-hidden="true" class="icon-search"></i></a></li><li class="main-nav-search"><form action="/ja/search" method="get" role="search">
+        <div class="search-wrap">
+          <label for="main-q" class="offscreen">検索</label>
+          <input type="search" id="main-q" name="q" placeholder="検索" data-value="" value="">
+          <span class="search-trigger"><i aria-hidden="true" class="icon-search"></i></span>&nbsp;
+          <button type="submit" class="offscreen">検索</button>
+        </div>
+      </form></li></ul></nav>
+  </div></header>
+
+  <!-- Content will go here -->
+  <main id="content" role="main"><div class="center clear">
+  
+    <form action="" method="post" data-json-url="/ja/docs.json" id="translate-document">
+      <input type="hidden" name="csrfmiddlewaretoken" value="jfUlaeRzPxWZwesxWLCXL7aE3wff5d8h">
+      <input type="hidden" name="form" value="both">
+
+      <div id="localize-document" class="editing">
+        <header id="article-head">
+          <div class="doc-title">
+           <h1><span class="title-prefix">Translating</span> <em>permissions</em></h1>
+          </div>
+
+          <div class="change-locale">
+            記事を 日本語 に翻訳中.
+          </div>
+
+          
+
+
+  
+    
+  
+
+
+
+
+  <iframe id="save-and-edit-target" name="save-and-edit-target"></iframe>
+  <input type="hidden" id="new-page-href" value="/ja/docs/new">
+  <input type="hidden" id="new-page-label" value="新規のページ">
+  <input type="hidden" id="new-page-msg" value="変更内容を破棄し、新しいドキュメントを作成しますか？">
+
+
+<ul class="page-buttons">
+  
+  <li>
+    <button type="submit" class="button positive btn-save-and-edit" data-optimizely-hook="button-save-and-keep-editing button-save-and-keep-editing-top" disabled="disabled"><span>保存して編集を続行</span><i aria-hidden="true" class="icon-edit"></i></button>
+  </li>
+  
+  <li>
+    <button type="submit" class="button positive btn-save" disabled="disabled">変更を保存<i aria-hidden="true" class="icon-save"></i></button>
+  </li>
+  
+  <li>
+    <button type="button" class="btn-preview" data-preview-url="/ja/docs/preview-wiki-content">プレビュー<i aria-hidden="true" class="icon-play-circle"></i></button>
+  </li>
+  
+  <li>
+    <a href="/ja/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions" class="button negative btn-discard">変更を破棄<i aria-hidden="true" class="icon-undo"></i></a>
+  </li>
+</ul>
+
+
+        </header>
+
+        
+
+      <details id="trans-description">
+        <summary><h2>翻訳についての説明</h2></summary>
+        
+            <ul class="description">
+              <li>
+                <dl class="approved">
+                  <dt>タイトル:</dt>
+                  <dd>permissions</dd>
+                </dl>
+                <dl class="localized">
+                  <dt><label for="id_title" title="記事のタイトル">日本語 のタイトル:</label></dt>
+                  <dd><input id="id_title" maxlength="255" name="title" placeholder="タイトルを入力してください" type="text" value="permissions"></dd>
+                </dl>
+              </li>
+              
+              
+                <li>
+                  <dl class="approved">
+                    <dt>&nbsp;</dt>
+                    <dd>&nbsp;</dd>
+                  </dl>
+                  <dl class="localized">
+                    <dt><label><abbr title="目次を生成する">目次:</abbr></label></dt>
+                    <dd><select id="id_toc_depth" name="toc_depth" required="required">
+<option value="0" selected="selected">目次がありません</option>
+<option value="1">全レベル</option>
+<option value="2">H2 以上</option>
+<option value="3">H3 以上</option>
+<option value="4">H4 以上</option>
+</select></dd>
+                  </dl>
+                </li>
+              
+              
+              <li class="metadata-choose-parent" style="display: block;">
+                <dl class="approved">
+                  <dt>&nbsp;</dt>
+                  <dd>&nbsp;</dd>
+                </dl>
+                <dl class="localized">
+                  <dt><label>検索:</label>
+                    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" id="parent_text" class="ui-autocomplete-input" autocomplete="off">
+                    <input type="hidden" name="parent_id" id="parent_id" value="160931">
+                  </dt>
+                  <dd>上の検索フォームで翻訳元を探して「変更を保存」をクリックしてください。</dd>
+                </dl>
+              </li>
+              
+            </ul>
+      </details>
+
+        
+          <details id="trans-content" open="open">
+            <summary><h2>内容を翻訳</h2></summary>
+            
+            
+            
+              
+                
+                
+                
+                
+    <section class="revision-diff">
+      <a href="/ja/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions$history?locale=en-US&amp;origin=translate">変更リビジョン</a>
+      <header>
+        <div class="rev-from">
+            <h3>
+            
+              <a href="/ja/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions$revision/943047" rel="nofollow, noindex">
+                リビジョン 943047:
+              </a>
+            
+          </h3>
+          <p>
+          リビジョン 943047 / 編集者: <a href="/ja/profiles/wbamberg">wbamberg</a> / 編集日時: <time datetime="2015-10-30T09:46:38-07:00">2015年10月30日 9:46:38 -0700</time>
+          </p>
+        </div>
+        <div class="rev-to">
+          <h3>
+            
+              <a href="/ja/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions$revision/1017546" rel="nofollow, noindex">
+                リビジョン 1017546:
+              </a>
+            
+          </h3>
+          <p>
+          リビジョン 1017546 / 編集者: <a href="/ja/profiles/wbamberg">wbamberg</a> / 編集日時: <time datetime="2016-02-22T10:44:39-08:00">2016年2月22日 10:44:39 -0800</time>
+          </p>
+        </div>
+      </header>
+
+      <dl>
+        <dt>タイトル:</dt>
+        <dd class="rev-from">permissions</dd>
+        <dd class="rev-to">permissions</dd>
+
+        <dt>URL スラグ:</dt>
+        <dd class="rev-from">Mozilla/Add-ons/WebExtensions/manifest.json/permissions</dd>
+        <dd class="rev-to">Mozilla/Add-ons/WebExtensions/manifest.json/permissions</dd>
+
+        
+
+        <dt>内容:</dt>
+        
+        <dd>
+    <table class="diff" id="difflib_chg_to22__top" cellspacing="0" cellpadding="0" rules="groups">
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br></th><th colspan="2" class="diff_header">リビジョン 943047</th><th class="diff_next"><br></th><th colspan="2" class="diff_header">リビジョン 1017546</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to22__0"><a href="#difflib_chg_to22__1">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to22__1">n</a></td><td class="diff_header" id="to22_7">7</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_8">8</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{AddonSidebar}}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_9">9</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</span></td></tr>
+        </tbody>        
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to22__1"><a href="#difflib_chg_to22__2">n</a></td><td class="diff_header" id="from22_34">34</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;key&nbsp;can&nbsp;contain&nbsp;t<span class="diff_chg">wo</span>&nbsp;kinds&nbsp;of&nbsp;permissions:</td><td class="diff_next"><a href="#difflib_chg_to22__2">n</a></td><td class="diff_header" id="to22_37">37</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;key&nbsp;can&nbsp;contain&nbsp;t<span class="diff_chg">hree</span>&nbsp;kinds&nbsp;of&nbsp;permissions:</td></tr>
+        </tbody>        
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to22__2"><a href="#difflib_chg_to22__3">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to22__3">n</a></td><td class="diff_header" id="to22_43">43</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_44">44</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;the&nbsp;activeTab&nbsp;permission</span></td></tr>
+        </tbody>        
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to22__3"><a href="#difflib_chg_to22__4">n</a></td><td class="diff_header" id="from22_49">49</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;extra&nbsp;privileges&nbsp;include&nbsp;XHR&nbsp;access&nbsp;to&nbsp;those&nbsp;origins,&nbsp;a</span></td><td class="diff_next"><a href="#difflib_chg_to22__4">n</a></td><td class="diff_header" id="to22_54">54</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;extra&nbsp;privileges&nbsp;include:</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_sub">nd&nbsp;the&nbsp;ability&nbsp;to&nbsp;inject&nbsp;scripts&nbsp;programmatically&nbsp;(using&nbsp;&lt;code&gt;ta</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_sub">bs.executeScript&lt;/code&gt;)&nbsp;into&nbsp;pages&nbsp;served&nbsp;from&nbsp;those&nbsp;origins.</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td></tr>
+        </tbody>        
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to22__4"><a href="#difflib_chg_to22__5">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to22__5">n</a></td><td class="diff_header" id="to22_56">56</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_57">57</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;XHR&nbsp;access&nbsp;to&nbsp;those&nbsp;origins</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_58">58</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_59">59</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;the&nbsp;ability&nbsp;to&nbsp;inject&nbsp;scripts&nbsp;programmatically&nbsp;(using&nbsp;&lt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">a&nbsp;href="/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/execut</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">eScript"&gt;tabs.executeScript&lt;/a&gt;)&nbsp;into&nbsp;pages&nbsp;served&nbsp;from&nbsp;those&nbsp;ori</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">gins</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_60">60</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_61">61</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;the&nbsp;ability&nbsp;to&nbsp;receive&nbsp;events&nbsp;from&nbsp;the&nbsp;&lt;a&nbsp;href="/en-US/</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">docs/Mozilla/Add-ons/WebExtensions/API/webRequest"&gt;webRequest&lt;/a&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">&nbsp;API&nbsp;for&nbsp;these&nbsp;hosts</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_62">62</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_63">63</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;</span></td></tr>
+        </tbody>        
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to22__5"><a href="#difflib_chg_to22__6">n</a></td><td class="diff_header" id="from22_96">96</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&amp;nbsp;&lt;code&gt;tabs&lt;/code&gt;&nbsp;gives&nbsp;you&nbsp;access&nbsp;to&nbsp;&lt;a&nbsp;href="/e</span></td><td class="diff_next"><a href="#difflib_chg_to22__6">n</a></td><td class="diff_header" id="to22_109">109</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&amp;nbsp;&lt;code&gt;tabs&lt;/code&gt;&nbsp;gives&nbsp;you&nbsp;access&nbsp;to&nbsp;&lt;a&nbsp;href="/e</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_sub">n-US/Add-ons/WebExtensions/API/tabs"&gt;privileged&nbsp;parts&nbsp;of&nbsp;the&nbsp;&lt;cod</span></td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">n-US/Add-ons/WebExtensions/API/tabs"&gt;privileged&nbsp;parts&nbsp;of&nbsp;the&nbsp;&lt;cod</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_sub">e&gt;tabs&lt;/code&gt;&nbsp;API&lt;/a&gt;.&nbsp;Most&nbsp;of&nbsp;the&nbsp;&lt;code&gt;tabs&lt;/code&gt;&nbsp;API&nbsp;can&nbsp;be&nbsp;u</span></td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">e&gt;tabs&lt;/code&gt;&nbsp;API&lt;/a&gt;:&nbsp;&lt;code&gt;Tab.url&lt;/code&gt;,&nbsp;&lt;code&gt;Tab.title&lt;/cod</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_sub">sed&nbsp;without&nbsp;requesting&nbsp;any&nbsp;permission.</span></td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">e&gt;,&nbsp;and&nbsp;&lt;code&gt;Tab.faviconUrl&lt;/code&gt;.&nbsp;In&nbsp;Firefox,&nbsp;you&nbsp;also&nbsp;need&nbsp;&lt;c</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">ode&gt;tabs&lt;/code&gt;&nbsp;if&nbsp;you&nbsp;want&nbsp;to&nbsp;include&nbsp;&lt;code&gt;url&lt;/code&gt;&nbsp;in&nbsp;the&nbsp;&lt;c</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">ode&gt;queryInfo&lt;/code&gt;&nbsp;parameter&nbsp;to&amp;nbsp;&nbsp;&lt;code&gt;&lt;a&nbsp;href="/en-US/doc</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">s/Mozilla/Add-ons/WebExtensions/API/tabs/query"&gt;tabs.query()&lt;/a&gt;&lt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">/code&gt;.&nbsp;The&nbsp;rest&nbsp;of&nbsp;the&nbsp;&lt;code&gt;tabs&lt;/code&gt;&nbsp;API&nbsp;can&nbsp;be&nbsp;used&nbsp;without</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">&nbsp;requesting&nbsp;any&nbsp;permission.</span></td></tr>
+        </tbody>        
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to22__6"><a href="#difflib_chg_to22__top">t</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to22__top">t</a></td><td class="diff_header" id="to22_115">115</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&nbsp;id="activeTab_permission"&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_116">116</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;activeTab&nbsp;permission</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_117">117</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h2&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_118">118</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_119">119</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;permission&nbsp;is&nbsp;specified&nbsp;as&nbsp;&lt;code&gt;"activeTab"&lt;/code&gt;.&nbsp;I</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">f&nbsp;an&nbsp;extension&nbsp;has&nbsp;the&nbsp;&lt;code&gt;activeTab&lt;/code&gt;&nbsp;permission,&nbsp;then&nbsp;wh</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">en&nbsp;the&nbsp;user&nbsp;interacts&nbsp;with&nbsp;the&nbsp;extension&nbsp;(for&nbsp;example:&nbsp;clicks&nbsp;its</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">&nbsp;browser&nbsp;action&nbsp;or&nbsp;page&nbsp;action,&nbsp;or&nbsp;selects&nbsp;its&nbsp;context&nbsp;menu&nbsp;item)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">,&nbsp;the&nbsp;extension&nbsp;is&nbsp;granted&nbsp;extra&nbsp;privileges&nbsp;for&nbsp;the&nbsp;active&nbsp;tab&nbsp;on</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">ly.</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_120">120</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_121">121</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_122">122</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;extra&nbsp;privileges&nbsp;are:</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_123">123</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_124">124</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_125">125</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;the&nbsp;ability&nbsp;to&nbsp;inject&nbsp;JavaScript&nbsp;or&nbsp;CSS&nbsp;into&nbsp;the&nbsp;tab&nbsp;pr</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">ogrammatically,&nbsp;using&nbsp;&lt;code&gt;&lt;a&nbsp;href="/en-US/Add-ons/WebExtensions</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">/API/tabs/executeScript"&gt;chrome.tabs.executeScript&lt;/a&gt;&lt;/code&gt;&nbsp;and</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&lt;code&gt;&lt;a&nbsp;href="/en-US/Add-ons/WebExtensions/API/tabs/insertCSS"&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">chrome.tabs.insertCSS&lt;/a&gt;&lt;/code&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_126">126</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_127">127</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;access&nbsp;to&nbsp;the&nbsp;privileged&nbsp;parts&nbsp;of&nbsp;the&nbsp;tabs&nbsp;API&nbsp;for&nbsp;the&nbsp;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">current&nbsp;tab:&nbsp;&lt;code&gt;Tab.url&lt;/code&gt;,&nbsp;&lt;code&gt;Tab.title&lt;/code&gt;,&nbsp;and&nbsp;&lt;c</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">ode&gt;Tab.faviconUrl&lt;/code&gt;.</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_128">128</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_129">129</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_130">130</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_131">131</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;intention&nbsp;of&nbsp;this&nbsp;permission&nbsp;is&nbsp;to&nbsp;enable&nbsp;extensions&nbsp;to</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">&nbsp;fulfill&nbsp;a&nbsp;common&nbsp;use&nbsp;case,&nbsp;without&nbsp;having&nbsp;to&nbsp;give&nbsp;them&nbsp;very&nbsp;powe</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">rful&nbsp;permissions.&nbsp;Many&nbsp;extensions&nbsp;want&nbsp;to&nbsp;"do&nbsp;something&nbsp;to&nbsp;the&nbsp;cu</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">rrent&nbsp;page&nbsp;when&nbsp;the&nbsp;user&nbsp;asks".&nbsp;For&nbsp;example,&nbsp;consider&nbsp;an&nbsp;extensio</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">n&nbsp;that&nbsp;wants&nbsp;to&nbsp;run&nbsp;a&nbsp;script&nbsp;in&nbsp;the&nbsp;current&nbsp;page&nbsp;when&nbsp;the&nbsp;user&nbsp;cl</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">icks&nbsp;a&nbsp;browser&nbsp;action.&nbsp;If&nbsp;the&amp;nbsp;&nbsp;&lt;code&gt;activeTab&lt;/code&gt;&nbsp;permis</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">sion&nbsp;did&nbsp;not&nbsp;exist,&nbsp;the&nbsp;extension&nbsp;would&nbsp;need&nbsp;to&nbsp;ask&nbsp;for&nbsp;the&nbsp;host&nbsp;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">permission&nbsp;&lt;code&gt;&amp;lt;all_urls&amp;gt;&lt;/code&gt;.&nbsp;But&nbsp;this&nbsp;gives&nbsp;the&nbsp;exte</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">nsion&nbsp;more&nbsp;power&nbsp;than&nbsp;it&nbsp;needs:&nbsp;it&nbsp;could&nbsp;now&nbsp;execute&nbsp;scripts&nbsp;in&nbsp;a</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">ny&nbsp;tab,&nbsp;any&nbsp;time&nbsp;it&nbsp;likes,&nbsp;instead&nbsp;of&nbsp;just&nbsp;the&nbsp;active&nbsp;tab&nbsp;and&nbsp;jus</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap">&nbsp;</td><td class="diff_next"></td><td class="diff_header">&gt;</td><td nowrap="nowrap"><span class="diff_add">t&nbsp;in&nbsp;response&nbsp;to&nbsp;a&nbsp;user&nbsp;action.</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to22_132">132</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</span></td></tr>
+        </tbody>
+    </table></dd>
+        
+      </dl>
+    </section>
+  
+              
+            
+
+            <div id="content-fields">
+              <article class="approved text-content">
+                <header>
+                    <h3 class="approved-title">承認された English (US) 版:</h3>
+                    <div class="translate-buttons">
+                        <button class="doc-mode-btn" data-alternate-message="レンダリング結果を表示">ソースを表示</button>
+                        <button class="hide-original-btn" data-alternate-message="English (US) を表示">English (US) を隠す</button>
+                    </div>
+                </header>
+                <div class="boxed translate-rendered">
+                  <p>{{AddonSidebar}}</p>
+
+<table class="fullwidth-table standard-table">
+ <tbody>
+  <tr>
+   <th scope="row" style="width: 50%;">Type</th>
+   <td><code>Array</code></td>
+  </tr>
+  <tr>
+   <th scope="row">Mandatory</th>
+   <td>No</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Use the <code>permissions</code> key to request special powers for your extension. This key is an array of strings, and each string is a request for a permission.</p>
+
+<p>If you request permissions using this key, then the browser may inform the user at install time that the extension is requesting certain privileges, and ask them to confirm that they are happy to grant these privileges. The browser may also allow the user to inspect an extension's privileges after installation.</p>
+
+<p>The key can contain three kinds of permissions:</p>
+
+<ul>
+ <li>host permissions</li>
+ <li>API permissions</li>
+ <li>the activeTab permission</li>
+</ul>
+
+<h2 id="Host_permissions">Host permissions</h2>
+
+<p>Host permissions are specified as <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns">match patterns</a>, and each pattern identifies a group of URLs for which the extension is requesting extra privileges.</p>
+
+<p>The extra privileges include:</p>
+
+<ul>
+ <li>XHR access to those origins</li>
+ <li>the ability to inject scripts programmatically (using <a href="/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/executeScript">tabs.executeScript</a>) into pages served from those origins</li>
+ <li>the ability to receive events from the <a href="/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest">webRequest</a> API for these hosts</li>
+</ul>
+
+<h2 id="API_permissions">API permissions</h2>
+
+<p>API permissions are specified as keywords, and each keyword names a WebExtension API that the extension would like to use.</p>
+
+<p>The following keywords are currently available:</p>
+
+<ul>
+ <li><code>alarms</code></li>
+ <li><code>bookmarks</code></li>
+ <li><code>contextMenus</code></li>
+ <li><code>cookies</code></li>
+ <li><code>notifications</code></li>
+ <li><code>storage</code></li>
+ <li><code>tabs</code></li>
+ <li><code>webNavigation</code></li>
+ <li><code>webRequest</code></li>
+ <li><code>webRequestBlocking</code></li>
+</ul>
+
+<p>In most cases the permission just grants access to the API, with the following exceptions:</p>
+
+<ul>
+ <li>&nbsp;<code>tabs</code> gives you access to <a href="/en-US/Add-ons/WebExtensions/API/tabs">privileged parts of the <code>tabs</code> API</a>: <code>Tab.url</code>, <code>Tab.title</code>, and <code>Tab.faviconUrl</code>. In Firefox, you also need <code>tabs</code> if you want to include <code>url</code> in the <code>queryInfo</code> parameter to&nbsp; <code><a href="/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/query">tabs.query()</a></code>. The rest of the <code>tabs</code> API can be used without requesting any permission.</li>
+ <li><code>webRequestBlocking</code> enables you to use the "blocking" argument, so you can <a href="/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Modifying_canceling_requests">modify and cancel requests</a>.</li>
+</ul>
+
+<h2 id="activeTab_permission">activeTab permission</h2>
+
+<p>This permission is specified as <code>"activeTab"</code>. If an extension has the <code>activeTab</code> permission, then when the user interacts with the extension (for example: clicks its browser action or page action, or selects its context menu item), the extension is granted extra privileges for the active tab only.</p>
+
+<p>The extra privileges are:</p>
+
+<ul>
+ <li>the ability to inject JavaScript or CSS into the tab programmatically, using <code><a href="/en-US/Add-ons/WebExtensions/API/tabs/executeScript">chrome.tabs.executeScript</a></code> and <code><a href="/en-US/Add-ons/WebExtensions/API/tabs/insertCSS">chrome.tabs.insertCSS</a></code></li>
+ <li>access to the privileged parts of the tabs API for the current tab: <code>Tab.url</code>, <code>Tab.title</code>, and <code>Tab.faviconUrl</code>.</li>
+</ul>
+
+<p>The intention of this permission is to enable extensions to fulfill a common use case, without having to give them very powerful permissions. Many extensions want to "do something to the current page when the user asks". For example, consider an extension that wants to run a script in the current page when the user clicks a browser action. If the&nbsp; <code>activeTab</code> permission did not exist, the extension would need to ask for the host permission <code>&lt;all_urls&gt;</code>. But this gives the extension more power than it needs: it could now execute scripts in any tab, any time it likes, instead of just the active tab and just in response to a user action.</p>
+
+<p id="Chrome_incompatibilities">{{WebExtCompat()}}</p>
+
+<h2 id="Example">Example</h2>
+
+<pre class="brush: json line-numbers  language-json"><code class=" language-json"><span class="token key">"permissions":</span> <span class="token punctuation">[</span><span class="token string">"*://developer.mozilla.org/*"</span><span class="token punctuation">]</span><span class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>Request privileged access to pages under developer.mozilla.org.</p>
+
+<pre class="brush: json line-numbers  language-json"><code class=" language-json"><span class="token key">"permissions":</span> <span class="token punctuation">[</span><span class="token string">"tabs"</span><span class="token punctuation">]</span><span class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>Request access to the privileged pieces of the <code>tabs</code> API.</p>
+
+<pre class="brush: json line-numbers  language-json"><code class=" language-json"><span class="token key">"permissions":</span> <span class="token punctuation">[</span><span class="token string">"*://developer.mozilla.org/*"</span><span class="token punctuation">,</span> <span class="token string">"tabs"</span><span class="token punctuation">]</span><span class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>Request both of the above permissions.</p>
+                </div>
+                <div class="boxed translate-source hidden">
+                    <textarea readonly="">&lt;p&gt;{{AddonSidebar}}&lt;/p&gt;
+
+&lt;table class="fullwidth-table standard-table"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;th scope="row" style="width: 50%;"&gt;Type&lt;/th&gt;
+   &lt;td&gt;&lt;code&gt;Array&lt;/code&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope="row"&gt;Mandatory&lt;/th&gt;
+   &lt;td&gt;No&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Use the &lt;code&gt;permissions&lt;/code&gt; key to request special powers for your extension. This key is an array of strings, and each string is a request for a permission.&lt;/p&gt;
+
+&lt;p&gt;If you request permissions using this key, then the browser may inform the user at install time that the extension is requesting certain privileges, and ask them to confirm that they are happy to grant these privileges. The browser may also allow the user to inspect an extension's privileges after installation.&lt;/p&gt;
+
+&lt;p&gt;The key can contain three kinds of permissions:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;host permissions&lt;/li&gt;
+ &lt;li&gt;API permissions&lt;/li&gt;
+ &lt;li&gt;the activeTab permission&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="Host_permissions"&gt;Host permissions&lt;/h2&gt;
+
+&lt;p&gt;Host permissions are specified as &lt;a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns"&gt;match patterns&lt;/a&gt;, and each pattern identifies a group of URLs for which the extension is requesting extra privileges.&lt;/p&gt;
+
+&lt;p&gt;The extra privileges include:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;XHR access to those origins&lt;/li&gt;
+ &lt;li&gt;the ability to inject scripts programmatically (using &lt;a href="/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/executeScript"&gt;tabs.executeScript&lt;/a&gt;) into pages served from those origins&lt;/li&gt;
+ &lt;li&gt;the ability to receive events from the &lt;a href="/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest"&gt;webRequest&lt;/a&gt; API for these hosts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="API_permissions"&gt;API permissions&lt;/h2&gt;
+
+&lt;p&gt;API permissions are specified as keywords, and each keyword names a WebExtension API that the extension would like to use.&lt;/p&gt;
+
+&lt;p&gt;The following keywords are currently available:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;code&gt;alarms&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;bookmarks&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;contextMenus&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;cookies&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;notifications&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;storage&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;tabs&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;webNavigation&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;webRequest&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;webRequestBlocking&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In most cases the permission just grants access to the API, with the following exceptions:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&nbsp;&lt;code&gt;tabs&lt;/code&gt; gives you access to &lt;a href="/en-US/Add-ons/WebExtensions/API/tabs"&gt;privileged parts of the &lt;code&gt;tabs&lt;/code&gt; API&lt;/a&gt;: &lt;code&gt;Tab.url&lt;/code&gt;, &lt;code&gt;Tab.title&lt;/code&gt;, and &lt;code&gt;Tab.faviconUrl&lt;/code&gt;. In Firefox, you also need &lt;code&gt;tabs&lt;/code&gt; if you want to include &lt;code&gt;url&lt;/code&gt; in the &lt;code&gt;queryInfo&lt;/code&gt; parameter to&nbsp; &lt;code&gt;&lt;a href="/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/query"&gt;tabs.query()&lt;/a&gt;&lt;/code&gt;. The rest of the &lt;code&gt;tabs&lt;/code&gt; API can be used without requesting any permission.&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;webRequestBlocking&lt;/code&gt; enables you to use the "blocking" argument, so you can &lt;a href="/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Modifying_canceling_requests"&gt;modify and cancel requests&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="activeTab_permission"&gt;activeTab permission&lt;/h2&gt;
+
+&lt;p&gt;This permission is specified as &lt;code&gt;"activeTab"&lt;/code&gt;. If an extension has the &lt;code&gt;activeTab&lt;/code&gt; permission, then when the user interacts with the extension (for example: clicks its browser action or page action, or selects its context menu item), the extension is granted extra privileges for the active tab only.&lt;/p&gt;
+
+&lt;p&gt;The extra privileges are:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;the ability to inject JavaScript or CSS into the tab programmatically, using &lt;code&gt;&lt;a href="/en-US/Add-ons/WebExtensions/API/tabs/executeScript"&gt;chrome.tabs.executeScript&lt;/a&gt;&lt;/code&gt; and &lt;code&gt;&lt;a href="/en-US/Add-ons/WebExtensions/API/tabs/insertCSS"&gt;chrome.tabs.insertCSS&lt;/a&gt;&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;access to the privileged parts of the tabs API for the current tab: &lt;code&gt;Tab.url&lt;/code&gt;, &lt;code&gt;Tab.title&lt;/code&gt;, and &lt;code&gt;Tab.faviconUrl&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The intention of this permission is to enable extensions to fulfill a common use case, without having to give them very powerful permissions. Many extensions want to "do something to the current page when the user asks". For example, consider an extension that wants to run a script in the current page when the user clicks a browser action. If the&nbsp; &lt;code&gt;activeTab&lt;/code&gt; permission did not exist, the extension would need to ask for the host permission &lt;code&gt;&lt;all_urls&gt;&lt;/code&gt;. But this gives the extension more power than it needs: it could now execute scripts in any tab, any time it likes, instead of just the active tab and just in response to a user action.&lt;/p&gt;
+
+&lt;p id="Chrome_incompatibilities"&gt;{{WebExtCompat()}}&lt;/p&gt;
+
+&lt;h2 id="Example"&gt;Example&lt;/h2&gt;
+
+&lt;pre class="brush: json"&gt; "permissions": ["*://developer.mozilla.org/*"]&lt;/pre&gt;
+
+&lt;p&gt;Request privileged access to pages under developer.mozilla.org.&lt;/p&gt;
+
+&lt;pre class="brush: json"&gt;  "permissions": ["tabs"]&lt;/pre&gt;
+
+&lt;p&gt;Request access to the privileged pieces of the &lt;code&gt;tabs&lt;/code&gt; API.&lt;/p&gt;
+
+&lt;pre class="brush: json"&gt;  "permissions": ["*://developer.mozilla.org/*", "tabs"]&lt;/pre&gt;
+
+&lt;p&gt;Request both of the above permissions.&lt;/p&gt;</textarea>
+                </div>
+              </article>
+              <article class="localized">
+                <header>
+                  <div class="guide-links">
+  <a target="_blank" href="/ja/docs/MDN/Community">Need Help?</a>
+  •
+  <a target="_blank" href="/ja/docs/MDN/Contribute/Editor">Editor Guide</a>
+  •
+  <a target="_blank" href="/ja/docs/MDN/Contribute/Content/Style_guide">Style Guide</a>
+</div>
+                  <h3>日本語 の翻訳:</h3>
+                </header>
+                <div class="ckeditor-container editor-container">
+                  
+  
+  <div class="editor">
+    <div class="editor-tools"></div>
+    <textarea cols="40" id="id_content" maxlength="300000" name="content" rows="10" style="visibility: hidden;">&lt;table class="fullwidth-table standard-table"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;th style="width: 50%;" scope="row"&gt;Type&lt;/th&gt;
+   &lt;td&gt;&lt;code&gt;Array&lt;/code&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope="row"&gt;必須か？&lt;/th&gt;
+   &lt;td&gt;No&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;あなたのアドオンが特別な権限を要求するためにパーミッションキーを使用します。このキーは文字列の配列で、各文字列はパーミッションを要求します。&lt;/p&gt;
+
+&lt;p&gt;もしあなたがキーとしてパーミッションを要求した場合、ブラウザはインストール時に「このアドオンはこれだけの特権を要求しています」と知らせ、これらの権限を付与しても大丈夫かとユーザーに確認します。ブラウザはまた、インストール後にユーザーがアドオンの特権を調査することも許可します。&lt;/p&gt;
+
+&lt;p&gt;キーには２つのタイプがあります：&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;host permissions&lt;/li&gt;
+ &lt;li&gt;API permissions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="Host_permissions"&gt;Host permissions&lt;/h2&gt;
+
+&lt;p&gt;ホストパーミッションは&lt;a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns"&gt;match patterns&lt;/a&gt; として指定します。それぞれのパターンはURLのグループextra特権を要求します。&lt;/p&gt;
+
+&lt;p&gt;extra特権にはそれぞれのオリジン（&lt;strong&gt;URLの「スキーム」＋「ホスト」＋「ポート」&lt;/strong&gt;）へのXHRアクセスやプログラムでスクリプトをそれぞれのオリジンのページに(&lt;code&gt;tabs.executeScript&lt;/code&gt;などを使い)挿入する能力です。&lt;/p&gt;
+
+&lt;h2 id="API_パーミッション"&gt;API パーミッション&lt;/h2&gt;
+
+&lt;p&gt;APIパーミッションには使いたいWebExtensionAPIの名前をキーワードとして指定します。&lt;/p&gt;
+
+&lt;p&gt;以下のキーワードが使用できます：&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;code&gt;alarms&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;bookmarks&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;contextMenus&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;cookies&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;notifications&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;storage&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;tabs&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;webNavigation&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;webRequest&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;webRequestBlocking&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;以下の例外を除き、おおよその場合、パーミッションはアクセスを申請するAPIと同じ名前です：&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;code&gt;タブはあなたが&lt;/code&gt;&lt;a href="/en-US/Add-ons/WebExtensions/API/tabs"&gt;privileged parts of the &lt;code&gt;tabs&lt;/code&gt; API&lt;/a&gt;にアクセスすることを許可します。おおよそのtabsAPIには、パーミッションの要求なしで使用できます。&lt;/li&gt;
+ &lt;li&gt;&lt;code&gt;webRequestBlocking&lt;/code&gt; を有効にするには"brocking"引数を使用します。そうすれば &lt;a href="/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Modifying_canceling_requests"&gt;modify and cancel requests&lt;/a&gt;が使用できるでしょう。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p id="Chrome_incompatibilities"&gt;{{WebExtCompat()}}&lt;/p&gt;
+
+&lt;h2 id="例"&gt;例&lt;/h2&gt;
+
+&lt;pre class="brush: json"&gt; "permissions": ["*://developer.mozilla.org/*"]&lt;/pre&gt;
+
+&lt;p&gt;これは developer.mozilla.org.ドメイン下のページにアクセスする権限を要求しています。&lt;/p&gt;
+
+&lt;pre class="brush: json"&gt;  "permissions": ["tabs"]&lt;/pre&gt;
+
+&lt;p&gt;タブAPIを使用する権限を要求しています。&lt;/p&gt;
+
+&lt;pre class="brush: json"&gt;  "permissions": ["*://developer.mozilla.org/*", "tabs"]&lt;/pre&gt;
+
+&lt;p&gt;上記の両方の権限を要求しています。&lt;/p&gt;</textarea>
+  </div>
+
+                </div>
+              </article>
+            </div>
+            <input id="id_based_on" name="based_on" type="hidden" value="1017546"><input id="id_current_rev" name="current_rev" type="hidden">
+          </details>
+          <details id="trans-meta" open="open">
+            <summary><h2>タグの翻訳</h2></summary>
+            <div class="wiki-block">
+              <p>
+                記事のカテゴリを設定してください。それにより、検索エンジンで絞り込みを行った場合にもこの記事を正しく見つけられるようになります。詳しくは <a target="_blank" href="/ja/docs/Project:MDN/Contributing/Tagging_standards">タグ付けガイド</a> を参照してください。
+              </p>
+                <div class="approved">
+                  <section class="page-tags">
+                  <h3>英語のタグ</h3>
+                    
+                    <div id="translate-tags">
+                      
+                        <p>このドキュメントはタグ付けされていません。</p>
+                      
+                    </div>
+                  </section>
+                </div>
+                <div class="localized">
+                  <section id="page-tags" class="page-tags">
+                  <h3>日本語 のタグ</h3>
+                    <ul class="tagit ui-widget ui-widget-content"><li class="tagit-new"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" class="ui-widget-content ui-autocomplete-input" autocomplete="off" placeholder="新しいタグ..."></li></ul>
+                  <input type="hidden" name="tags" id="hiddenTags" value=""></section>
+                </div>
+              </div>
+          </details>
+          <details id="trans-version" open="open">
+            <summary><h2>バージョンノート</h2></summary>
+              <section class="wiki-block">
+                <h3>ローカライズフラグ</h3>
+                <ul id="id_localization_tags"><li><label for="id_localization_tags_0"><input id="id_localization_tags_0" name="localization_tags" type="checkbox" value="inprogress"> 翻訳途中 - まだ翻訳が完了していない</label></li></ul>
+              </section>
+
+              <div class="wiki-block">
+
+    <h3>レビューが必要ですか？</h3>
+    <ul id="id_review_tags"><li><label for="id_review_tags_0"><input id="id_review_tags_0" name="review_tags" type="checkbox" value="technical"> 技術レビュー - サンプルコード、API 、技術的な内容に関するレビュー</label></li>
+<li><label for="id_review_tags_1"><input checked="checked" id="id_review_tags_1" name="review_tags" type="checkbox" value="editorial"> 編集レビュー - 表現、文法、内容</label></li></ul>
+
+</div>
+
+              <section class="wiki-block" id="page-comment">
+  <h3><i aria-hidden="true" class="icon-comment"></i>リビジョンのコメント <a href="/ja/docs/Project:MDN/Contributing/Editor_guide/Editing%23The_revision_comment_box"><i aria-hidden="true" title="リビジョンコメントの使い方" class="icon-question-sign editor-help-icon"></i></a></h3>
+  <p>変更した理由を記載してください。任意項目ですが、ページの変更履歴を簡単に理解できるようになります。</p>
+  <input id="id_comment" name="comment" type="text">
+</section>
+
+          </details>
+        
+
+        <section class="wiki-block">
+                
+
+
+  
+    
+  
+
+
+
+
+
+<ul class="page-buttons">
+  
+  <li>
+    <button type="submit" class="button positive btn-save-and-edit" data-optimizely-hook="button-save-and-keep-editing button-save-and-keep-editing-bottom" disabled="disabled"><span>保存して編集を続行</span><i aria-hidden="true" class="icon-edit"></i></button>
+  </li>
+  
+  <li>
+    <button type="submit" class="button positive btn-save" disabled="disabled">変更を保存<i aria-hidden="true" class="icon-save"></i></button>
+  </li>
+  
+  <li>
+    <button type="button" class="btn-preview" data-preview-url="/ja/docs/preview-wiki-content">プレビュー<i aria-hidden="true" class="icon-play-circle"></i></button>
+  </li>
+  
+  <li>
+    <a href="/ja/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions" class="button negative btn-discard">変更を破棄<i aria-hidden="true" class="icon-undo"></i></a>
+  </li>
+</ul>
+
+
+        </section>
+
+      </div>
+    </form>
+
+  
+
+    
+
+
+
+
+<section id="page-attachments" class="wiki-block">
+
+  <h3><i aria-hidden="true" class="icon-paperclip"></i>添付ファイル <a href="/ja/docs/Project:MDN/Contributing/Editor_guide/Editing%23The_attachments_box"><i aria-hidden="true" title="添付ファイルの使い方" class="icon-question-sign editor-help-icon"></i></a></h3>
+
+  
+
+  <p id="page-attachments-no-message" class="">
+    このドキュメントには添付ファイルがありません。画像を添付した上で、記事内に埋め込むことができます。
+    
+      <button id="page-attachments-button" class="neutral">ファイルを添付<i aria-hidden="true" class="icon-paperclip"></i></button>
+    
+  </p>
+
+  <script>
+    mdn.wiki.attachments = [];
+  </script>
+
+    <table cellpadding="0" cellspacing="0" id="page-attachments-table" class="hidden">
+      <thead>
+        <tr><th>ファイル</th>
+        <th>サイズ</th>
+        <th>日時</th>
+        <th>添付者:</th>
+      </tr></thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+
+
+  
+  <form method="post" action="/files/new/" id="page-attachments-form" enctype="multipart/form-data" target="page-attachments-upload-target">
+    <input type="hidden" name="csrfmiddlewaretoken" value="jfUlaeRzPxWZwesxWLCXL7aE3wff5d8h">
+    <table cellpadding="0" cellspacing="0" id="page-attachments-new-table" class="hidden">
+      <thead>
+        <tr><th>ファイル</th>
+        <th>タイトル</th>
+        <th>概要</th>
+        <th>コメント</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="page-attachment-actions-file-cell"><input id="id_file" name="file" required="required" type="file"></td>
+          <td><input id="id_title" maxlength="255" name="title" required="required" type="text"></td>
+          <td><textarea cols="40" id="id_description" name="description" rows="10"></textarea></td>
+          <td><input id="id_comment" maxlength="255" name="comment" type="text"></td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <input type="submit" name="submit" value="Upload">
+            <img src="https://developer.cdn.mozilla.net/static/img/upload-spinner.ccc406f181b3.gif" id="page-attachments-spinner" alt="アップロード中">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <iframe id="page-attachments-upload-target" name="page-attachments-upload-target"></iframe>
+  <input type="hidden" name="is_ajax" value="1"></form>
+  
+</section>
+
+
+  </div></main>
+
+  <!-- Footer -->
+  <footer><div class="center">
+    <div class="column-container">
+      <div class="column-main">
+        
+        <div class="contentinfo">
+          <p>© 2005-2016 Mozilla Developer Network &amp; 貢献者各人</p> <p>コンテンツは <a href="/en-US/docs/MDN/About#Copyrights_and_licenses">これらのライセンス</a> の下で公開されています。</p>
+          <ul>
+            <li><a href="/docs/MDN/About">MDN について</a></li>
+            <li><a href="//www.mozilla.org/about/legal/terms/mozilla">利用規約</a></li>
+            <li><a href="//www.mozilla.org/privacy/websites/">プライバシー</a></li>
+            <li><a href="//www.mozilla.org/privacy/websites/#cookies">Cookie</a></li>
+            <li><a href="//github.com/mozilla/kuma">MDN のコードに貢献する</a></li>
+          </ul>
+        <p></p>
+        
+        </div>
+      </div>
+      <div class="column-strip">
+        
+          
+              <form class="languages go" method="get" action="#">
+  <label for="language">他の言語:</label>
+  
+  <select id="language" class="autosubmit" name="lang">
+    <option value="af">
+        Afrikaans
+      </option><option value="ar">
+        عربي
+      </option><option value="az">
+        Azərbaycanca
+      </option><option value="bm">
+        Bamanankan
+      </option><option value="bn-BD">
+        বাংলা (বাংলাদেশ)
+      </option><option value="bn-IN">
+        বাংলা (ভারত)
+      </option><option value="ca">
+        Català
+      </option><option value="cs">
+        Čeština
+      </option><option value="de">
+        Deutsch
+      </option><option value="ee">
+        Eʋe
+      </option><option value="el">
+        Ελληνικά
+      </option><option value="en-US">
+        English (US)
+      </option><option value="es">
+        Español
+      </option><option value="fa">
+        فارسی
+      </option><option value="ff">
+        Pulaar-Fulfulde
+      </option><option value="fi">
+        suomi
+      </option><option value="fr">
+        Français
+      </option><option value="fy-NL">
+        Frysk
+      </option><option value="ga-IE">
+        Gaeilge
+      </option><option value="ha">
+        Hausa
+      </option><option value="he">
+        עברית
+      </option><option value="hi-IN">
+        हिन्दी (भारत)
+      </option><option value="hr">
+        Hrvatski
+      </option><option value="hu">
+        magyar
+      </option><option value="id">
+        Bahasa Indonesia
+      </option><option value="ig">
+        Igbo
+      </option><option value="it">
+        Italiano
+      </option><option value="ja" selected="">
+        日本語
+      </option><option value="ka">
+        ქართული
+      </option><option value="ko">
+        한국어
+      </option><option value="ln">
+        Lingála
+      </option><option value="mg">
+        Malagasy
+      </option><option value="ml">
+        മലയാളം
+      </option><option value="ms">
+        Melayu
+      </option><option value="my">
+        မြန်မာဘာသာ
+      </option><option value="nl">
+        Nederlands
+      </option><option value="pl">
+        Polski
+      </option><option value="pt-BR">
+        Português (do&nbsp;Brasil)
+      </option><option value="pt-PT">
+        Português (Europeu)
+      </option><option value="ro">
+        Română
+      </option><option value="ru">
+        Русский
+      </option><option value="son">
+        Soŋay
+      </option><option value="sq">
+        Shqip
+      </option><option value="sr">
+        Српски
+      </option><option value="sr-Latn">
+        Srpski
+      </option><option value="sv-SE">
+        Svenska
+      </option><option value="sw">
+        Kiswahili
+      </option><option value="ta">
+        தமிழ்
+      </option><option value="th">
+        ไทย
+      </option><option value="tl">
+        Tagalog
+      </option><option value="tn">
+        Setswana
+      </option><option value="tr">
+        Türkçe
+      </option><option value="uk">
+        Українська
+      </option><option value="vi">
+        Tiếng Việt
+      </option><option value="wo">
+        Wolof
+      </option><option value="xh">
+        isiXhosa
+      </option><option value="yo">
+        Yorùbá
+      </option><option value="zh-CN">
+        中文 (简体)
+      </option><option value="zh-TW">
+        正體中文 (繁體)
+      </option><option value="zu">
+        isiZulu
+      </option>
+  </select>
+  <noscript>&lt;button type="submit"&gt;移動&lt;/button&gt;</noscript>
+</form>
+          
+        
+      </div>
+    </div>
+  </div></footer>
+
+  <!-- site js -->
+  
+    
+    <!--[if lte IE 8]><script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/selectivizr.091e18cf669b.js" charset="utf-8"></script><![endif]-->
+
+    <form id="_persona_login" method="post" action="/users/persona/signin" data-csrf-token-url="/users/persona/csrf" data-request="{&quot;siteName&quot;: &quot;Mozilla Developer Network&quot;, &quot;siteLogo&quot;: &quot;/static/img/opengraph-logo.png&quot;}" data-persona-script="https://login.persona.org/include.js">
+  <input type="hidden" name="csrfmiddlewaretoken" value="" id="_persona_csrf_token">
+  <input type="hidden" name="next" value="" id="_persona_next_url">
+  <input type="hidden" name="process" value="" id="_persona_process">
+  <input type="hidden" name="assertion" id="_persona_assertion">
+</form>
+
+
+    <script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/main.4df460b33f9e.js" charset="utf-8"></script>
+
+      <script>
+        if(window.mdn && mdn.analytics) mdn.analytics.trackOutboundLinks();
+      </script>
+
+    
+    <script type="text/javascript" src="https://developer.cdn.mozilla.net/static/jsi18n/ja/javascript.0ac08c31d9c8.js"></script>
+  
+    <script async="" type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/wiki.72e6565fed8e.js" charset="utf-8"></script>
+
+
+  
+  <script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/jquery-ui.041c0367b45b.js" charset="utf-8"></script>
+
+  
+<script type="text/javascript">
+  mdn.wiki.tagSuggestions = ["Accessibility", "Advanced", "AJAX", "API", "Apps", "Attribute", "Beginner", "Canvas", "CodingScripting", "Collaborating", "Community", "Composing", "Credibility", "CSS", "Deprecated", "Design", "Device", "DOM", "ECMAScript6", "Events", "Example", "Experimental", "Extensions", "Featured", "Firefox", "Firefox OS", "Games", "Gecko", "Glossary", "Graphics", "Guide", "History", "HTML", "HTTP", "Infrastructure", "Interface", "Intermediate", "Internationalization", "Intro", "JavaScript", "JSAPI Reference", "junk", "l10n:exclude", "l10n:priority", "Landing", "Layout", "Learn", "Localization", "MDN", "Method", "Mobile", "Mozilla", "Navigation", "NeedsBrowserCompatibility", "NeedsCompatTable", "NeedsContent", "NeedsExample", "NeedsLiveSample", "NeedsMarkupWork", "NeedsMobileBrowserCompatibility", "NeedsUpdate", "Networking", "Non-standard", "Obsolete", "OpenPractices", "Persona", "Places", "Plugins", "Privacy", "Property", "Protocols", "Pseudo-class", "Pseudo-element", "Reference", "Remixing", "Search", "Security", "Sharing", "SpiderMonkey", "SVG", "Tutorial", "WebMechanics"];
+</script>
+  <!-- Production ready CKEditor scripts -->
+<script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/ckeditor-prod.c41016aa124b.js" charset="utf-8"></script>
+
+<!-- Development version -->
+
+<script>
+  // Define the path to non-core plugins.
+  (
+    'scayt,wsc,mdn-attachment,mdn-format,mdn-sticky-toolbar,mdn-image-attachment,mdn-link-customization,' +
+    'mdn-link-launch,mdn-redirect,mdn-sample-finder,mdn-sampler,mdn-spell,mdn-syntaxhighlighter,' +
+    'mdn-system-integration,mdn-table-customization,mdn-toggle-block,mdn-wrapstyle,descriptionlist,' +
+    'tablesort,texzilla,mdn-youtube'
+  ).split(',').forEach(function(pluginName) {
+    CKEDITOR.plugins.addExternal(pluginName, 'https://developer.cdn.mozilla.net/media/js/libs/ckeditor/source/plugins/' + pluginName + '/');
+  });
+</script>
+  <script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/wiki-edit.36ba8dc30a42.js" charset="utf-8"></script><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul>
+
+
+
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-2" tabindex="0" style="display: none;"></ul></body>
