@@ -1,0 +1,512 @@
+<head><meta property="og:type" content="website">
+<meta property="og:image" content="https://bugzilla.mozilla.org/extensions/OpenGraph/web/bugzilla.png">
+<meta property="og:title" content="Bug List">
+<meta property="og:url" content="https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;email1=oonuma.ry0uyu%40gmail.com&amp;field0-0-0=bug_status&amp;type0-0-0=notequals&amp;value0-0-0=UNCONFIRMED&amp;field0-0-1=reporter&amp;type0-0-1=equals&amp;value0-0-1=oonuma.ry0uyu%40gmail.com&amp;list_id=12898084">
+    <title>Bug List</title>
+
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="Top" href="https://bugzilla.mozilla.org/">
+
+  
+
+
+  
+
+
+  
+    <link rel="Saved&nbsp;Searches" title="My Bugs" href="buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;email1=oonuma.ry0uyu%40gmail.com&amp;field0-0-0=bug_status&amp;type0-0-0=notequals&amp;value0-0-0=UNCONFIRMED&amp;field0-0-1=reporter&amp;type0-0-1=equals&amp;value0-0-1=oonuma.ry0uyu%40gmail.com">
+
+    <link rel="Saved&nbsp;Search" title="Bugs Filed Today (nobody@mozilla.org)" href="buglist.cgi?cmdtype=dorem&amp;remaction=run&amp;namedcmd=Bugs%20Filed%20Today&amp;sharer_id=1">
+
+
+<link href="data/assets/9b5e7200d96d06c34b819c58fc0c6657.css?1457448131" rel="stylesheet" type="text/css">
+
+<link href="data/assets/3978563909d54dd5393ce95ec74abc01.css?1457448112" rel="stylesheet" type="text/css">
+
+      
+
+    
+<script type="text/javascript" src="data/assets/fc6a080b260269fe529f7ab6854dec46.js?1457448131"></script>
+
+    <script type="text/javascript">
+    <!--
+          YAHOO.namespace('bugzilla');
+          YAHOO.util.Event.addListener = function (el, sType, fn, obj, overrideContext) {
+              if ( ("onpagehide" in window || YAHOO.env.ua.gecko) && sType === "unload") { sType = "pagehide"; };
+              var capture = ((sType == "focusin" || sType == "focusout") && !YAHOO.env.ua.ie) ? true : false;
+              return this._addListener(el, this._getType(sType), fn, obj, overrideContext, capture);
+          };
+          if ( "onpagehide" in window || YAHOO.env.ua.gecko) {
+              YAHOO.util.Event._simpleRemove(window, "unload",
+                                             YAHOO.util.Event._unload);
+          }
+
+        
+        function unhide_language_selector() {
+            $('#lang_links_container').removeClass('bz_default_hidden');
+        } 
+        $(document).ready(unhide_language_selector);
+
+        
+        var BUGZILLA = {
+            param: {
+                cookiepath: '\/',
+                maxusermatches: 50
+            },
+            constant: {
+                COMMENT_COLS: 80
+            },
+            string: {
+                
+
+                attach_desc_required:
+                    'You must enter a Description for this attachment.',
+                component_required:
+                    'You must select a Component for this bug.',
+                description_required:
+                    'You must enter a Description for this bug.',
+                short_desc_required:
+                    'You must enter a Summary for this bug.',
+                version_required:
+                    'You must select a Version for this bug.'
+            }
+              , api_token: 'Zrih1P7LfvTwLIrPVd2YAl'
+        };
+
+
+    // -->
+    </script>
+<script type="text/javascript" src="data/assets/3d9b545097175ede70617f0b47315324.js?1457448131"></script>
+
+    
+       <link rel="alternate" type="application/atom+xml" title="Atom feed" href="buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=oonuma.ry0uyu%40gmail.com&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;field0-0-0=bug_status&amp;field0-0-1=reporter&amp;list_id=12898084&amp;query_format=advanced&amp;type0-0-0=notequals&amp;type0-0-1=equals&amp;value0-0-0=UNCONFIRMED&amp;value0-0-1=oonuma.ry0uyu%40gmail.com&amp;title=Bug%20List&amp;ctype=atom">
+
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="Bugzilla@Mozilla" href="./search_plugin.cgi"><link rel="shortcut icon" href="extensions/BMO/web/images/favicon.ico"><meta name="robots" content="noarchive">
+  </head>
+
+
+
+
+  <body onload="" class="bugzilla-mozilla-org
+               skin-Mozilla yui-skin-sam">
+
+
+
+<div id="header">
+
+  <div class="wrapper">
+    <table border="0" cellspacing="0" cellpadding="0" id="titles">
+    <tbody><tr>
+      <td id="title">
+        <a href="./" title="Home">Bugzilla@Mozilla</a>
+      </td>
+      <td>
+      </td>
+      <td id="moz_login">
+          <ul class="links">
+            <li class="dropdown">
+              <span class="anchor">oonuma.ry0uyu@gmail.com</span>
+              <ul>
+                  <li><a href="buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;email1=oonuma.ry0uyu%40gmail.com&amp;field0-0-0=bug_status&amp;type0-0-0=notequals&amp;value0-0-0=UNCONFIRMED&amp;field0-0-1=reporter&amp;type0-0-1=equals&amp;value0-0-1=oonuma.ry0uyu%40gmail.com">My Bugs</a></li>
+                <li><a href="page.cgi?id=mydashboard.html">My Dashboard</a></li>
+                <li><a href="user_profile">My Profile</a></li>
+                <li><a href="page.cgi?id=user_activity.html&amp;action=run&amp;who=oonuma.ry0uyu%40gmail.com">My Activity</a></li>
+                <li><a href="request.cgi?requester=oonuma.ry0uyu%40gmail.com&amp;requestee=oonuma.ry0uyu%40gmail.com&amp;do_union=1&amp;group=type&amp;action=queue">My Requests</a></li>
+                <li><a href="userprefs.cgi">Preferences</a></li>
+                  <li><a href="index.cgi?logout=1">Log&nbsp;out</a></li>
+              </ul>
+            </li>
+          </ul>
+      </td>
+      <td id="moz_tab">
+        <a href="https://www.mozilla.org/" title="Mozilla - Home of the Mozilla Project">
+          <img src="skins/contrib/Mozilla/tabzilla.png" border="0" height="42" width="154"></a>
+      </td>
+    </tr>
+    </tbody></table>
+
+    
+<ul class="links">
+  <li><a href="./">Home</a></li>
+  <li><span class="separator">| </span><a href="enter_bug.cgi">New</a></li>
+  <li><span class="separator">| </span><a href="describecomponents.cgi">Browse</a></li>
+  <li><span class="separator">| </span><a href="query.cgi">Search</a></li>
+
+  <li class="form quicksearch_form">
+    <span class="separator">| </span>
+    <form action="buglist.cgi" method="get" onsubmit="if (this.quicksearch.value == '')
+                  { alert('Please enter one or more search terms first.');
+                    return false; } return true;">
+    <input class="txt" type="text" id="quicksearch_top" name="quicksearch" title="Quick Search" value="">
+    <input class="btn" type="submit" value="Search" id="find_top"></form>
+    [<a href="page.cgi?id=quicksearch.html" title="Quicksearch Help">help</a>]
+  </li>
+
+  <li><span class="separator">| </span><a href="report.cgi">Reports</a></li>
+
+<li><span class="separator"> | </span>
+    <a href="https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html">My Dashboard</a></li><li><span class="separator"> | </span><a href="page.cgi?id=productdashboard.html">Product Dashboard</a></li>
+
+</ul>
+
+  </div>
+
+
+</div> 
+
+<div id="bugzilla-body">
+
+<div class="bz_query_head">
+  <span class="bz_query_timestamp">Wed Mar  9 2016 01:14:38 PST<br>
+  </span>
+
+
+
+</div>
+
+
+<ul class="search_description">
+  <li>
+    <strong>Status:</strong>
+      UNCONFIRMED,
+      NEW,
+      ASSIGNED,
+      REOPENED
+  </li>
+  <li>
+    <strong>Assignee:</strong>
+      oonuma.ry0uyu@gmail.com
+  </li>
+  <li>
+    <strong>Reporter:</strong>
+      oonuma.ry0uyu@gmail.com
+  </li>
+  <li>
+    <strong>Status:</strong>
+      (is not equal to)
+      UNCONFIRMED
+  </li>
+  <li>
+    <strong>Reporter:</strong>
+      oonuma.ry0uyu@gmail.com
+  </li>
+</ul>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="bz_buglist sortable" cellspacing="0" cellpadding="4" width="100%">
+    <thead> 
+    <tr class="bz_buglist_header bz_first_buglist_header">
+      <th colspan="1" class="first-child
+                   sorted_3">
+        <a href="javascript:void(0);">ID</a>
+      </th>
+
+<th colspan="1" class="sortable_column_
+             sorted_-1">
+    <a href="javascript:void(0);">Product</a>
+  </th><th colspan="1" class="sortable_column_
+             sorted_-1">
+    <a href="javascript:void(0);">Comp</a>
+  </th><th colspan="1" class="sortable_column_
+             sorted_2">
+    <a href="javascript:void(0);">Assignee<span class="bz_sort_order_secondary">▲</span></a>
+  </th><th colspan="1" class="sortable_column_
+             sorted_0">
+    <a href="javascript:void(0);">Status<span class="bz_sort_order_primary">▲</span></a>
+  </th><th colspan="1" class="sortable_column_
+             sorted_-1">
+    <a href="javascript:void(0);">Resolution</a>
+  </th><th colspan="1" class="sortable_column_
+             sorted_-1">
+    <a href="javascript:void(0);">Summary</a>
+  </th><th colspan="1" class="sortable_column_
+             sorted_-1">
+    <a href="javascript:void(0);">Changed</a>
+  </th>
+
+
+    </tr>
+    </thead>
+
+<tbody class="sorttable_body">
+
+  <tr id="b1238578" class="bz_bugitem
+             bz_normal             bz_--             bz_UNCONFIRMED                                                    bz_row_odd             ">
+
+    <td class="first-child bz_id_column">
+      <a href="show_bug.cgi?id=1238578">1238578</a>
+      <span style="display: none"></span>
+    </td>
+
+    <td style="white-space: nowrap" class="bz_product_column">
+        <span title="Core">Core
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_component_column">
+        <span title="DOM: Events">DOM: Events
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_assigned_to_column">
+        <span title="nobody@mozilla.org">nobody@mozilla.org
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_bug_status_column" sorttable_customkey="100">
+        <span title="UNCONFIRMED">UNCO
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_resolution_column" sorttable_customkey="100">
+        <span title="---">---
+        </span>
+    </td>
+    <td class="bz_short_desc_column">
+        <a href="show_bug.cgi?id=1238578">can't running a.click();        </a>
+    </td>
+    <td style="white-space: nowrap" class="bz_changeddate_column" sorttable_customkey="2016-01-11 15:17:21">2016-01-11
+    </td>
+
+  </tr>
+
+
+
+  <tr id="b1254880" class="bz_bugitem
+             bz_normal             bz_--             bz_UNCONFIRMED                                                    bz_row_even             ">
+
+    <td class="first-child bz_id_column">
+      <a href="show_bug.cgi?id=1254880">1254880</a>
+      <span style="display: none"></span>
+    </td>
+
+    <td style="white-space: nowrap" class="bz_product_column">
+        <span title="Firefox">Firefox
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_component_column">
+        <span title="Untriaged">Untriaged
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_assigned_to_column">
+        <span title="nobody@mozilla.org">nobody@mozilla.org
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_bug_status_column" sorttable_customkey="100">
+        <span title="UNCONFIRMED">UNCO
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_resolution_column" sorttable_customkey="100">
+        <span title="---">---
+        </span>
+    </td>
+    <td class="bz_short_desc_column">
+        <a href="show_bug.cgi?id=1254880">firefox hello window was Break up        </a>
+    </td>
+    <td style="white-space: nowrap" class="bz_changeddate_column" sorttable_customkey="2016-03-08 23:00:01">23:00:01
+    </td>
+
+  </tr>
+
+
+
+  <tr id="b1238567" class="bz_bugitem
+             bz_normal             bz_--             bz_NEW                                                    bz_row_odd             ">
+
+    <td class="first-child bz_id_column">
+      <a href="show_bug.cgi?id=1238567">1238567</a>
+      <span style="display: none"></span>
+    </td>
+
+    <td style="white-space: nowrap" class="bz_product_column">
+        <span title="Core">Core
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_component_column">
+        <span title="Editor">Editor
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_assigned_to_column">
+        <span title="nobody@mozilla.org">nobody@mozilla.org
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_bug_status_column" sorttable_customkey="200">
+        <span title="NEW">NEW
+        </span>
+    </td>
+    <td style="white-space: nowrap" class="bz_resolution_column" sorttable_customkey="100">
+        <span title="---">---
+        </span>
+    </td>
+    <td class="bz_short_desc_column">
+        <a href="show_bug.cgi?id=1238567">Caret may disappears while document.designMode=on and run script        </a>
+    </td>
+    <td style="white-space: nowrap" class="bz_changeddate_column" sorttable_customkey="2016-01-11 08:09:37">2016-01-11
+    </td>
+
+  </tr>
+
+
+</tbody>
+
+<tfoot></tfoot></table>
+
+
+
+
+<span class="bz_result_count">3 bugs found.
+  </span>
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+<table>
+  <tbody><tr>
+      <td valign="middle" class="bz_query_buttons">
+        <form method="post" action="show_bug.cgi">
+            <input type="hidden" name="id" value="1238578">
+            <input type="hidden" name="id" value="1254880">
+            <input type="hidden" name="id" value="1238567">
+          <input type="hidden" name="format" value="multiple">
+          <input type="submit" id="long_format" value="Long Format">
+        </form>
+        <form method="post" action="show_bug.cgi">
+            <input type="hidden" name="ctype" value="xml">
+            <input type="hidden" name="id" value="1238578">
+            <input type="hidden" name="id" value="1254880">
+            <input type="hidden" name="id" value="1238567">
+            <input type="hidden" name="excludefield" value="attachmentdata">
+            <input type="submit" value="XML" id="xml">
+        </form>
+
+      </td>
+      
+      <td>&nbsp;</td>
+      
+      <td valign="middle" class="bz_query_links">
+        <div id="bitly-overlay">
+  <div>
+    <select id="bitly-type">
+      <option value="shorten">Share a link to this search</option>
+      <option value="list">Share a link to this list of bugs</option>
+    </select>
+    <input id="bitly-url" readonly="" placeholder="Generating short link...">
+  </div>
+  <button id="bitly-close" class="notransition">Close</button>
+</div>
+<a id="bitly-shorten" href="#" data-url="https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=oonuma.ry0uyu%40gmail.com&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;field0-0-0=bug_status&amp;field0-0-1=reporter&amp;type0-0-0=notequals&amp;type0-0-1=equals&amp;value0-0-0=UNCONFIRMED&amp;value0-0-1=oonuma.ry0uyu%40gmail.com">Short URL</a>
+|&nbsp;<a href="rest/bug?include_fields=id,summary,status&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=oonuma.ry0uyu%40gmail.com&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;field0-0-0=bug_status&amp;field0-0-1=reporter&amp;type0-0-0=notequals&amp;type0-0-1=equals&amp;value0-0-0=UNCONFIRMED&amp;value0-0-1=oonuma.ry0uyu%40gmail.com" title="Query as a REST API request">REST</a> |
+
+        <a href="buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=oonuma.ry0uyu%40gmail.com&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;field0-0-0=bug_status&amp;field0-0-1=reporter&amp;list_id=12898084&amp;query_format=advanced&amp;type0-0-0=notequals&amp;type0-0-1=equals&amp;value0-0-0=UNCONFIRMED&amp;value0-0-1=oonuma.ry0uyu%40gmail.com&amp;ctype=csv&amp;human=1">CSV</a> |
+        <a href="buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=oonuma.ry0uyu%40gmail.com&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;field0-0-0=bug_status&amp;field0-0-1=reporter&amp;list_id=12898084&amp;query_format=advanced&amp;type0-0-0=notequals&amp;type0-0-1=equals&amp;value0-0-0=UNCONFIRMED&amp;value0-0-1=oonuma.ry0uyu%40gmail.com&amp;title=Bug%20List&amp;ctype=atom">Feed</a> |
+        <a href="buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=oonuma.ry0uyu%40gmail.com&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;field0-0-0=bug_status&amp;field0-0-1=reporter&amp;list_id=12898084&amp;query_format=advanced&amp;type0-0-0=notequals&amp;type0-0-1=equals&amp;value0-0-0=UNCONFIRMED&amp;value0-0-1=oonuma.ry0uyu%40gmail.com&amp;ctype=ics">iCalendar</a>
+
+        <br>
+        <a href="colchange.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=oonuma.ry0uyu%40gmail.com&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;field0-0-0=bug_status&amp;field0-0-1=reporter&amp;list_id=12898084&amp;query_format=advanced&amp;type0-0-0=notequals&amp;type0-0-1=equals&amp;value0-0-0=UNCONFIRMED&amp;value0-0-1=oonuma.ry0uyu%40gmail.com&amp;query_based_on=">Change&nbsp;Columns</a>
+
+      </td>
+    
+    <td valign="middle" class="bz_query_edit">
+      <a href="query.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=oonuma.ry0uyu%40gmail.com&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;field0-0-0=bug_status&amp;field0-0-1=reporter&amp;list_id=12898084&amp;query_format=advanced&amp;type0-0-0=notequals&amp;type0-0-1=equals&amp;value0-0-0=UNCONFIRMED&amp;value0-0-1=oonuma.ry0uyu%40gmail.com">Edit&nbsp;Search</a>
+    </td>
+      
+      <td>&nbsp;</td>
+      
+      <td valign="middle" class="bz_query_remember">
+        <form method="get" action="buglist.cgi">
+          <input type="submit" id="remember" value="Remember search"> as 
+          <input type="hidden" name="newquery" value="bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=oonuma.ry0uyu%40gmail.com&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;field0-0-0=bug_status&amp;field0-0-1=reporter&amp;list_id=12898084&amp;query_format=advanced&amp;type0-0-0=notequals&amp;type0-0-1=equals&amp;value0-0-0=UNCONFIRMED&amp;value0-0-1=oonuma.ry0uyu%40gmail.com&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id">
+          <input type="hidden" name="cmdtype" value="doit">
+          <input type="hidden" name="remtype" value="asnamed">
+          <input type="hidden" name="token" value="1457514878-4bab61e6f981200012634afac5c2cbd4">
+          <input type="text" id="save_newqueryname" name="newqueryname" size="20" title="New query name" value=""> 
+        </form> 
+      </td>  
+  </tr>
+</tbody></table>
+
+
+
+
+
+</div>
+
+
+
+<div id="footer">
+  <div class="intro"></div>
+
+
+
+
+<ul id="useful-links">
+  <li id="links-actions"><ul class="links">
+  <li><a href="./">Home</a></li>
+  <li><span class="separator">| </span><a href="enter_bug.cgi">New</a></li>
+  <li><span class="separator">| </span><a href="describecomponents.cgi">Browse</a></li>
+  <li><span class="separator">| </span><a href="query.cgi">Search</a></li>
+
+  <li class="form quicksearch_form">
+    <span class="separator">| </span>
+    <form action="buglist.cgi" method="get" onsubmit="if (this.quicksearch.value == '')
+                  { alert('Please enter one or more search terms first.');
+                    return false; } return true;">
+    <input class="txt" type="text" id="quicksearch_bottom" name="quicksearch" title="Quick Search" value="">
+    <input class="btn" type="submit" value="Search" id="find_bottom"></form>
+    [<a href="page.cgi?id=quicksearch.html" title="Quicksearch Help">help</a>]
+  </li>
+
+  <li><span class="separator">| </span><a href="report.cgi">Reports</a></li>
+
+<li><span class="separator"> | </span>
+    <a href="https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html">My Dashboard</a></li><li><span class="separator"> | </span><a href="page.cgi?id=productdashboard.html">Product Dashboard</a></li>
+
+</ul>
+  </li>
+
+  
+    
+    <li id="links-saved">
+      <ul class="links">
+          <li><a href="buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;email1=oonuma.ry0uyu%40gmail.com&amp;field0-0-0=bug_status&amp;type0-0-0=notequals&amp;value0-0-0=UNCONFIRMED&amp;field0-0-1=reporter&amp;type0-0-1=equals&amp;value0-0-1=oonuma.ry0uyu%40gmail.com">My Bugs</a></li>
+
+            <br>
+          <li>
+            <a href="buglist.cgi?cmdtype=dorem&amp;remaction=run&amp;namedcmd=Bugs%20Filed%20Today&amp;sharer_id=1" class="shared" title="Shared by Nobody; OK to take it and work on it <nobody@mozilla.org>">Bugs&nbsp;Filed&nbsp;Today</a></li>
+      </ul>
+    </li>
+
+  
+
+
+  
+</ul>
+
+  <div class="outro"></div>
+</div>
+<div id="privacy-policy">
+  <a href="https://www.mozilla.org/privacy/websites/" target="_blank">Privacy Policy</a>
+</div>
+
+
+</body>
