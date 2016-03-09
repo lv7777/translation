@@ -1,0 +1,726 @@
+<head><script type="text/javascript" src="//m.addthis.com/live/red_lojson/300lo.json?si=56dfe2f2f9672164&amp;xs=0&amp;sid=56dfe2f2f9672164&amp;pub=ra-513082ca32a826c6&amp;rev=v5.5.2a-wp&amp;ln=ja&amp;pc=men&amp;cb=0&amp;ab=-&amp;dp=linkis.com&amp;fp=matome.naver.jp%2Fkoreha_shousesouima.html&amp;fr=matome.naver.jp%2Fodai%2FfB7tG&amp;of=0&amp;pd=0&amp;irt=1&amp;vcl=1&amp;md=0&amp;ct=1&amp;tct=0&amp;abt=0&amp;cdn=0&amp;pi=1&amp;rb=2&amp;gen=100&amp;chr=UTF-8&amp;colc=1457513203106&amp;jsl=33&amp;uvs=56dfe2f2260bc61e000&amp;callback=addthis.cbs.oln9_1675376375935440"></script><script type="text/javascript" src="//m.addthis.com/live/boost?pub=ra-513082ca32a826c6&amp;callback=_ate.track.config_resp"></script>
+    <meta charset="UTF-8">
+
+        
+                
+            
+        
+    
+    <title>これは痩せそう！いま、女子に話題の「アボカドファースト」 - NAVER まとめ - Linkis.com</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        body {
+            overflow: hidden;
+        }
+        .show-panel,
+        .social-panel {
+            opacity: 0;
+            visibility: hidden;
+        }
+        .iframe-holder,
+        .iframe-box {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 0;
+        }
+        .iframe-holder,
+        .iframe-box,
+        .show-panel.right-panel,
+        .show-panel.top-panel {
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+    </style>
+
+    <meta property="og:image" content="http://rr.img.naver.jp:80/mig?src=http%3A%2F%2Fimgcc.naver.jp%2Fkaze%2Fmission%2FUSER%2F20160301%2F17%2F1421647%2F10%2F120x120xe24112eeb463cd6b60b63cc2.jpg%2F300%2F600&amp;twidth=200&amp;theight=200&amp;qlt=80&amp;res_format=jpg&amp;op=r">
+<meta property="og:description" content="明日からやってみよ">
+<meta property="og:title" content="これは痩せそう！いま、女子に話題の「アボカドファースト」 - NAVER まとめ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://matome.naver.jp/odai/2145681850878026001">
+<meta property="og:site_name" content="NAVER まとめ">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@matomenaver">
+<meta name="twitter:title" content="これは痩せそう！いま、女子に話題の「アボカドファースト」 - NAVER まとめ">
+<meta name="twitter:description" content="明日からやってみよ">
+<meta name="twitter:image:src" content="http://rr.img.naver.jp:80/mig?src=http%3A%2F%2Fimgcc.naver.jp%2Fkaze%2Fmission%2FUSER%2F20160301%2F17%2F1421647%2F10%2F120x120xe24112eeb463cd6b60b63cc2.jpg%2F300%2F600&amp;twidth=1000&amp;theight=1000&amp;qlt=80&amp;res_format=jpg&amp;op=r">
+<meta name="description" content="明日からやってみよ"><link href="/favicon.ico" rel="icon" type="image/png">
+<link href="http://linkis.com/matome.naver.jp/koreha_shousesouima.html" rel="canonical">
+<link href="http://matome.naver.jp/favicon.ico" rel="icon" type="image/x-icon">
+<link href="/images/apple/apple-touch-icon-144x144.png" rel="apple-touch-icon" size="144x144">
+<link href="/images/apple/apple-touch-icon-72x72.png" rel="apple-touch-icon" size="72x72">
+<link href="/images/apple/apple-touch-icon-57x57.png" rel="apple-touch-icon" size="57x57">
+<link href="/js/prod/production_theme_10.css?973" media="all" rel="stylesheet" type="text/css" id="theme_css">
+    
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/mlfjhibgafmhfoeoaigcjophkaccppdf">
+
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">
+        var LNG = {};
+        var customAuthRedirect = null;
+            </script>
+
+    
+    <script type="text/javascript">
+
+
+    function __log(val){}
+
+    function hihit(id) {
+        if (id) {
+            var url = "http://stat.linkis.com/log.php?id=" + id + "&r=" + Math.round(100000 * Math.random());
+            var im = new Image();
+            im.src = url;
+        }
+    }
+
+
+function refreshPage()
+{
+    location.href = location.href.split('#')[0];
+    setTimeout(function(){
+        if (window.hihit) hihit(2580);
+    }, 10000);
+}
+function redirectPage(url)
+{
+    location.href = url;
+}
+function restoreUserAvatar(img, uid)
+{
+    img.onerror = null;
+    img.setAttribute('data-orig-image', img.src);
+    img.src = '/index/restore-avatar/uid/' + uid;
+
+}
+function lnEvent(action, label, category)
+{
+    
+    if($.isArray(action)) {
+        var hash   = lnEventGenerateHash((action[0][0] || '') + (action[0][1] || '') + (action[0][2] || ''));
+            action = JSON.stringify(action);
+    } else {
+        var hash = lnEventGenerateHash((action || '') + (label || '') + (category || ''));
+    }
+
+    var path = ['', 'index', 'ln-event'].join('/');
+    var e = function(str){ return str ? encodeURIComponent(str) : ''; };
+    var theme = window.LinkData ? LinkData.curTheme : 0;
+    var linkId = LnProf.page == 'index/show' && window.LinkData ? LinkData.id : 0;
+    var profId = LnProf.profId ? LnProf.profId : 0;
+    (new Image()).src = path +
+        '?c=' + e(category) +
+        '&a=' + e(action) +
+        '&l=' + e(label) +
+        '&t=' + e(theme) +
+        '&li=' + e(linkId) +
+        '&id=' + e(profId) +
+        '&h='  + hash +
+        '&r=' + Math.random();
+}
+
+function lnEventGenerateHash(str) {
+    var hash = '';
+    var length = str.length;
+    var step = (length < 5) ? 2 : Math.floor(length / 5);
+
+    var codeSumFunction = function(codeSum) {
+        var num = 0;
+        for(var j = 0; j < codeSum.toString().length; j++) {
+            num += parseInt(codeSum.toString().substr(j, 1), 10);
+        }
+
+        return num;
+    };
+
+    var codeSum = 0;
+    for(var i = 0; i < length; i++) {
+        var char = str.substr(i, 1);
+
+        if(i % step == 0 && char != ' ') {
+            var num = codeSumFunction(codeSum);
+            hash += num + '' + char;
+            codeSum = 0;
+        } else {
+            codeSum += str.charCodeAt(i);
+        }
+    }
+
+    if(codeSum) hash += codeSumFunction(codeSum);
+
+    return hash;
+}
+
+</script>
+    
+<script type="text/javascript">
+window.NL_APP_DATA = {
+    user:{
+        isLogged: false,
+        type: '',
+        hasTw: false
+    },
+    redirect_after_auth: '/',
+    controller: 'index',
+    action: 'show',
+    cookies:{
+        notification_enabled: 'notification_enabled'
+    },
+    show_notify_popup: 0,
+
+        
+    show_silent_popup_old_usr: 0,
+    stat_id: null,
+    nopopups: 0,
+    addThisSrc: 'http://s7.addthis.com/js/300/addthis_widget.js#async=1&pubid=',
+    addThisId: 'ra-513082ca32a826c6',
+    referrer_link: 'http://linkis.com/matome.naver.jp/odai/fB7tG',
+    referrer_name: '',
+    referrer_type: 0,
+    cookie_domain: '.linkis.com',
+	sessCookieName: 'LNSID',
+    popupsHtml: {},
+    fbAppId: 318962828183539};
+var LnProf = {
+    profId: 0,
+    enabled: 1,
+    startedAt: 0,
+    startDuration: 0,
+    theme: 10,
+    err: [],
+    path: ['', 'index', 'save-ln-prof?'], // prevent simple url parsing
+    iframeLoad: false,
+    page: 'index/show',
+    recordId: 183031962,
+    reqQueue: [], // we use queue to send ajax requests one by one
+    reqProcessing: false,
+
+    request: function(src, startProfRequest)
+    {
+        if (LnProf.reqProcessing) {
+            // other request is active now -> just add our task to the queue and exit
+            this.reqQueue.push(src);
+            return;
+        }
+
+        LnProf.reqProcessing = true;
+
+        var xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.open('GET', src + '&id=' + LnProf.profId, true);
+
+        xmlhttp.onreadystatechange = function() {
+
+            if (!startProfRequest) {
+                LnProf.reqProcessing = false;
+            }
+
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+
+                var response = JSON.parse(xmlhttp.responseText);
+
+                if (startProfRequest && response.profId) {
+                    // get `profId` from first response
+                    LnProf.profId        = response.profId;
+                    LnProf.startDuration = (new Date()).getTime() - LnProf.startedAt;
+
+                    // reset flag only if `start` request is ok
+                    LnProf.reqProcessing = false;
+                }
+            }
+
+            if (LnProf.reqQueue.length && !LnProf.reqProcessing) {
+                // there are other tasks in queue -> process next
+                LnProf.request(LnProf.reqQueue.shift());
+            }
+        };
+
+        xmlhttp.send(null);
+    },
+
+    // receive profId in this function
+    start: function()
+    {
+        LnProf.startedAt = (new Date()).getTime() ;
+
+        if (!LnProf.enabled)
+            return;
+
+        var src = LnProf.path.join('/') + 'type=start&page=' +
+            LnProf.page + '&time=' + LnProf.startedAt +
+            '&uri=' + encodeURIComponent(location.pathname + location.search + location.hash) + '&theme=' +
+            LnProf.theme + '&ref=' + NL_APP_DATA.referrer_link;
+
+        LnProf.request(src, true);
+    },
+    prodLoad: function(minifyVersion)
+    {
+        if (!LnProf.profId || !LnProf.enabled)
+            return;
+
+        var browser  = $.browser.platform + ' ' + $.browser.name + ' ' + $.browser.versionNumber;
+        var time     = (new Date()).getTime() - LnProf.startedAt;
+        var recordId = LnProf.recordId ? LnProf.recordId : 0;
+
+        var src = LnProf.path.join('/') + 'type=prod&browser=' + encodeURIComponent(browser) +
+            '&time=' + time + '&ver=' + (minifyVersion || '') + '&dur=' + LnProf.startDuration + '&recid=' + recordId;
+
+        LnProf.request(src);
+    },
+    stopApp: function()
+    {
+        hihit(3292);
+
+        if (!LnProf.profId || !LnProf.enabled)
+            return;
+
+        LnProf.request(LnProf.path.join('/') + 'type=stop-app&rnd=' + LnProf._rnd());
+    },
+    iframe: function()
+    {
+        var time = (new Date()).getTime() - LnProf.startedAt;
+        this.iframeLoad = time;
+
+        if (!LnProf.profId || !LnProf.enabled)
+            return;
+
+        LnProf.request(LnProf.path.join('/') + 'type=iframe&time=' + time + '&rnd=' + LnProf._rnd());
+    },
+    adblock: function()
+    {
+        if (!LnProf.profId || !LnProf.enabled)
+            return;
+
+        LnProf.request(LnProf.path.join('/') + 'type=adblock&adblock=1' + '&rnd=' + LnProf._rnd());
+    },
+    blocked: function(block)
+    {
+        if (!LnProf.profId || !LnProf.enabled)
+            return;
+
+        LnProf.request(LnProf.path.join('/') + 'type=blocked&block=' + block + '&rnd=' + LnProf._rnd());
+    },
+    popup: function(popup)
+    {
+        if (!LnProf.profId || !LnProf.enabled)
+            return;
+
+        var name;
+        if (typeof popup == 'string') {
+            name = popup;
+        } else if (popup && typeof popup == 'object') {
+            try {
+                name = popup.name || (popup.popupClass ? popup.popupClass.prototype.name : null);
+            } catch (e) {}
+        }
+
+        LnProf.request(LnProf.path.join('/') + 'type=popup&name=' + encodeURIComponent(name || 'noname') + '&rnd=' + LnProf._rnd());
+    },
+    onError: function(msg, file, line, col)
+    {
+        hihit(3282);
+        LnProf.err.push(msg+' in file '+file+' on line '+line+':'+col);
+        if (!LnProf.profId || !LnProf.enabled)
+            return;
+
+        var now   = (new Date()).getTime();
+        var error = JSON.stringify(arguments);
+
+        LnProf.request(LnProf.path.join('/') + 'type=error&time=' + now + '&error=' + encodeURIComponent(error));
+    },
+    getErrors: function()
+    {
+        return LnProf.err.join("\n");
+    },
+    _rnd: function() { return Math.round(100000 * Math.random()); }
+};
+
+LnProf.start();
+window.onerror = LnProf.onError;
+
+</script>
+
+<style type="text/css">#at16lb{display:none;position:absolute;top:0;left:0;width:100%;height:100%;z-index:1001;background-color:#000;opacity:.001}#at16pc,#at16pi,#at16pib,#at_complete,#at_email,#at_error,#at_share,#at_success{position:static!important}.at15dn{display:none}.at15a{border:0;height:0;margin:0;padding:0;width:230px}.atnt{text-align:center!important;padding:6px 0 0!important;height:24px!important}.atnt a{text-decoration:none;color:#36b}.atnt a:hover{text-decoration:underline}#at15s,#at16nms,#at16p,#at16p form input,#at16p label,#at16p textarea,#at16recap,#at16sas,#at_msg,#at_share .at_item{font-family:arial,helvetica,tahoma,verdana,sans-serif!important;font-size:9pt!important;outline-style:none;outline-width:0;line-height:1em}* html #at15s.mmborder{position:absolute!important}#at15s.mmborder{position:fixed!important;width:250px!important}#at15s{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);float:none;line-height:1em;margin:0;overflow:visible;padding:5px;text-align:left;position:absolute}#at15s a,#at15s span{outline:0;direction:ltr;text-transform:none}#at15s .at-label{margin-left:5px}#at15s .at-icon-wrapper,#at16ps .at-icon-wrapper{width:1pc;height:1pc;vertical-align:middle}#at15s .at-icon,#at16ps .at-icon{width:1pc;height:1pc}.at4-icon{display:inline-block;background-repeat:no-repeat;background-position:top left;margin:0;overflow:hidden;cursor:pointer}.addthis_16x16_style .at4-icon,.addthis_16x16_white_style .at4-icon,.addthis_default_style .at4-icon,.at4-icon,.at-16x16{width:1pc;height:1pc;line-height:1pc;background-size:1pc!important}.addthis_32x32_style .at4-icon,.addthis_32x32_white_style .at4-icon,.at-32x32{width:2pc;height:2pc;line-height:2pc;background-size:2pc!important}.addthis_24x24_style .at4-icon,.addthis_24x24_white_style .at4-icon,.at-24x24{width:24px;height:24px;line-height:24px;background-size:24px!important}.addthis_20x20_style .at4-icon,.addthis_20x20_white_style .at4-icon,.at-20x20{width:20px;height:20px;line-height:20px;background-size:20px!important}.at4-icon.circular,.circular .at4-icon,.circular.aticon{border-radius:50%}.at4-icon.rounded,.rounded .at4-icon{border-radius:4px}.at4-icon-left{float:left}#at15s .at4-icon{text-indent:20px;padding:0;overflow:visible;white-space:nowrap;background-size:1pc;width:1pc;height:1pc;background-position:top left;display:inline-block;line-height:1pc}.addthis_vertical_style .at4-icon,.at4-follow-container .at4-icon,.sortable-list-container .at4-icon{margin-right:5px}html>body #at15s{width:250px!important}#at15s.atm{background:none!important;padding:0!important;width:10pc!important}#at15s.atiemode2{width:252px!important}#at15s_inner{background:#fff;border:1px solid #fff;margin:0}#at15s_head{position:relative;background:#f2f2f2;padding:4px;cursor:default;border-bottom:1px solid #e5e5e5}.at15s_head_success{background:#cafd99!important;border-bottom:1px solid #a9d582!important}.at15s_head_success a,.at15s_head_success span{color:#000!important;text-decoration:none}#at15s_brand,#at15sptx,#at16_brand{position:absolute}#at15s_brand{top:4px;right:4px}.at15s_brandx{right:20px!important}a#at15sptx{top:4px;right:4px;text-decoration:none;color:#4c4c4c;font-weight:700}#at15s.atiemode2 a#at15sptx,.at15sie6 a#at15sptx{right:8px}#at15sptx:hover{text-decoration:underline}#at16_brand{top:5px;right:30px;cursor:default}#at_hover{padding:4px}#at_hover .at_item,#at_share .at_item{background:#fff!important;float:left!important;color:#4c4c4c!important}#at_share .at_item .at-icon-wrapper{margin-right:5px}#at_hover .at_bold{font-weight:700;color:#000!important}#at16nms,#at16sas{padding:4px 5px}#at16nms{display:none}#at16sas{clear:left;padding-top:1pc;padding-bottom:1pc}#at_hover .at_item{width:7pc!important;padding:2px 3px!important;margin:1px;text-decoration:none!important}#at_hover .at_item.atiemode2{width:114px!important}#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover{margin:0!important}#at16ps .at_item:focus,#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover,#at_share .at_item.athov,#at_share .at_item:hover{background:#f2f2f2!important;border:1px solid #e5e5e5;color:#000!important;text-decoration:none}.ipad #at_hover .at_item:focus{background:#fff!important;border:1px solid #fff}* html #at_hover .at_item{border:1px solid #fff}* html #at_hover .at_item.athov{border:1px solid #e5e5e5!important;margin:1px!important}#at_email15{padding-top:5px}.at15e_row{height:28px}.at15e_row label,.at15e_row span{padding-left:10px!important;display:block!important;width:60px!important;float:left!important}.at15e_row input,.at15e_row textarea{display:block!important;width:150px!important;float:left!important;background:#fff!important;border:1px solid #ccc!important;color:#333!important;font-size:11px!important;font-weight:400!important;padding:0!important}#at_email input,#at_email label,#at_email textarea{font-size:11px!important}#at_email #at16meo{margin:15px 0 0 2px}#at16meo span{float:left;margin-right:5px;padding-top:4px}#at16meo a{float:left;margin:0}#at_sending{top:130px;left:110px;position:absolute;text-align:center}#at_sending img{padding:10px}.at15t{display:block!important;height:1pc!important;line-height:1pc!important;padding-left:20px!important;background-position:0 0;text-align:left}.addthis_button,.at15t{cursor:pointer}.addthis_toolbox a.at300b,.addthis_toolbox a.at300m{width:auto}.addthis_toolbox a{margin-bottom:5px;line-height:initial}.addthis_toolbox.addthis_vertical_style{width:140px}.addthis_toolbox.addthis_close_style .addthis_button_google_plusone{width:65px;overflow:hidden}.addthis_toolbox.addthis_close_style .addthis_button_facebook_like{width:85px;overflow:hidden}.addthis_toolbox.addthis_close_style .addthis_button_tweet{width:90px;overflow:hidden}.addthis_button_facebook_like .fb_iframe_widget{line-height:100%}.addthis_button_facebook_like iframe.fb_iframe_widget_lift{max-width:none}.addthis_toolbox span.addthis_follow_label{display:none}.addthis_toolbox.addthis_vertical_style span.addthis_follow_label{display:block;white-space:nowrap}.addthis_toolbox.addthis_vertical_style a{display:block}.addthis_toolbox.addthis_vertical_style.addthis_32x32_style a{line-height:2pc;height:2pc}.addthis_toolbox.addthis_vertical_style .at300bs{margin-right:4px;float:left}.addthis_toolbox.addthis_20x20_style span{line-height:20px;*height:20px}.addthis_toolbox.addthis_32x32_style span{line-height:2pc;*height:2pc}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact,.addthis_toolbox.addthis_pill_combo_style a{float:left}.addthis_toolbox.addthis_pill_combo_style a.addthis_button_tweet{margin-top:-2px}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact{margin-right:4px}.addthis_default_style .addthis_separator{margin:0 5px;display:inline}div.atclear{clear:both}.addthis_default_style .addthis_separator,.addthis_default_style .at4-icon,.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300bs,.addthis_default_style .at300m{float:left}.at300b img,.at300bo img{border:0}a.at300b .at4-icon,a.at300m .at4-icon{display:block}.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300m{padding:0 2px}.at300b,.at300bo,.at300bs,.at300m{cursor:pointer}.addthis_button_facebook_like.at300b:hover,.addthis_button_facebook_like.at300bs:hover,.addthis_button_facebook_send.at300b:hover,.addthis_button_facebook_send.at300bs:hover{opacity:1;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter:alpha(opacity=100)}.addthis_20x20_style .at15t,.addthis_20x20_style .at300bs,.addthis_20x20_style .dummy .at300bs{overflow:hidden;display:block;height:20px!important;width:20px!important;line-height:20px!important}.addthis_32x32_style .at15t,.addthis_32x32_style .at300bs,.addthis_32x32_style .dummy .at300bs{overflow:hidden;display:block;height:2pc!important;width:2pc!important;line-height:2pc!important}.at300bs{background-position:0 0}.at16nc,.at300bs{overflow:hidden;display:block;height:1pc;width:1pc;line-height:1pc!important}.at16t{padding-left:20px!important;width:auto;cursor:pointer;text-align:left;overflow:visible!important}#at_feed{display:none;padding:10px;height:300px}#at_feed span{margin-bottom:10px;font-size:9pt}#at_feed div{width:102px!important;height:26px!important;line-height:26px!important;float:left!important;margin-right:68px}#at_feed div.at_litem{margin-right:0}#at_feed a{margin:10px 0;height:17px;line-height:17px}#at_feed.atused .fbtn{background:url(//s7.addthis.com/static/r05/feed00.gif) no-repeat;float:left;width:102px;cursor:pointer;text-indent:-9000px}#at_feed .fbtn.bloglines{background-position:0 0!important;width:94px;height:20px!important;line-height:20px!important;margin-top:8px!important}#at_feed .fbtn.yahoo{background-position:0 -20px!important}#at_feed .fbtn.newsgator,.fbtn.newsgator-on{background-position:0 -37px!important}#at_feed .fbtn.technorati{background-position:0 -71px!important}#at_feed .fbtn.netvibes{background-position:0 -88px!important}#at_feed .fbtn.pageflakes{background-position:0 -141px!important}#at_feed .fbtn.feedreader{background-position:0 -172px!important}#at_feed .fbtn.newsisfree{background-position:0 -207px!important}#at_feed .fbtn.google{background-position:0 -54px!important;width:78pt}#at_feed .fbtn.winlive{background-position:0 -105px!important;width:75pt;height:19px!important;line-height:19px;margin-top:9px!important}#at_feed .fbtn.mymsn{background-position:0 -158px;width:71px;height:14px!important;line-height:14px!important;margin-top:9pt!important}#at_feed .fbtn.aol{background-position:0 -189px;width:92px;height:18px!important;line-height:18px!important}.addthis_default_style .at15t_compact,.addthis_default_style .at15t_expanded{margin-right:4px}#at16clb{font-size:16pt;font-family:verdana bold,verdana,arial,sans-serif}#at_share .at_item{width:123px!important;padding:4px;margin-right:2px;border:1px solid #fff}#at16pm{background:#fff;width:298px;height:380px;text-align:left;border-right:1px solid #ccc;position:static}#at16pcc,#at16pccImg{position:fixed;top:0;left:0;width:100%;margin:0 auto;font-size:10px!important;color:#4c4c4c;padding:0;z-index:10000001;overflow:visible}#at16pccImg{height:100%}* html #at16pcc{position:absolute}#at16abifc{overflow:hidden;margin:0;top:10px;left:10px;height:355px;width:492px;position:absolute;border:0}#at16abifc iframe{border:0;position:absolute;height:380px;width:516px;top:-10px;left:-10px}* html div#at16abifc.atiemode2{height:374px;width:482px}* html #at16abifc iframe{height:23pc;left:-10px;top:-10px;overflow:hidden}#at16p{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);z-index:10000001}#at16p,#atie6cmifh,#atie6ifh{position:absolute;top:50%;left:50%;width:300px;padding:10px;margin:0 auto;margin-top:-185px;margin-left:-155px;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#5e5e5e}#atie6ifh{width:322px;height:381px;margin-left:-165px}#atie6cmifh,#atie6ifh{padding:0;z-index:100001}#atie6cmifh{width:15pc;height:225px;margin:0}#at_share{margin:0;padding:0}#at16ps{overflow-y:scroll;height:19pc;padding:5px}a#at16pit{position:absolute;top:37px;right:10px;display:block;background:url(data:image/gif;base64,R0lGODlhEAAUAKIFAKqqquHh4cLCwszMzP///////wAAAAAAACH5BAEAAAUALAAAAAAQABQAAAMtOLqsAqWQSSsN0OoLthfeNoTaSFbmOaUqe7okHMoeLaqUXeITiGM/SGM4eEQSADs=) no-repeat;width:1pc;height:20px;line-height:19px;margin-right:-17px;text-align:center;overflow:hidden;color:#36b}#at16pi{background:#e5e5e5;text-align:left;border:1px solid #ccc;border-bottom:0}#at16pi a{text-decoration:none;color:#36b}#at16p #at16abc{margin-left:2px!important}#at16pi a:hover{text-decoration:underline}#at16pt{position:relative;background:#f2f2f2;height:13px;padding:5px 10px}#at16pt a,#at16pt h4{font-weight:700}#at16pt h4{display:inline;margin:0;padding:0;font-size:9pt;color:#4c4c4c;cursor:default}#at16pt a{position:absolute;top:5px;right:10px;color:#4c4c4c;text-decoration:none;padding:2px}#at15sptx:focus,#at16pt a:focus{outline:thin dotted}#at16pc form{margin:0}#at16pc form label{display:block;font-size:11px;font-weight:700;padding-bottom:4px;float:none;text-align:left}#at16pc form label span{font-weight:400;color:#4c4c4c;display:inline}#at_email form .abif{width:17pc!important}#at_email textarea{height:55px!important;word-wrap:break-word}* html #at_email textarea,:first-child+html #at_email textarea{height:42px!important}#at_email label{width:220px}#at_email input,#at_email textarea{background:#fff;border:1px solid #bbb;width:17pc!important;margin:0;margin-bottom:8px;font-weight:400;padding:3px!important;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:11px;line-height:1.4em;color:#333}#at_email form .atfxmode2{width:279px!important}#at16pc form .at_ent{color:#333!important}#at16pc textarea{height:3pc}#at16pc form input:focus,#at16pc textarea:focus{background:ivory;color:#333}#at16p .atbtn,#at16recap .atbtn{background:#fff;border:1px solid #b5b5b5;width:60px!important;padding:2px 4px;margin:0;margin-right:2px!important;font-size:11px!important;font-weight:700;color:#333;cursor:pointer}#at16p .atbtn:focus,#at16p .atbtn:hover,#at16recap .atbtn:focus,#at16recap .atbtn:hover{border-color:#444;color:#06c}#at16p .atrse,#at16recap .atrse{font-weight:400!important;color:#666;margin-left:2px!important}#atsb .atbtn{width:78px!important;margin:0!important}#at_email #ateml{text-align:right;font-size:10px;color:#999}#at16pc{height:343px!important;font-size:11px;text-align:left;color:#4c4c4c}#at_email{padding:5px 10px}#at16pc .tmsg{padding:4px 2px;text-align:right}#at16psf{position:relative;background:#f2f2f2 url(data:image/gif;base64,R0lGODlhGQEVAMQYAGZmZuDg4Ozs7MjIyMzMzPj4+LOzs3BwcMbGxsvLy5+fn/X19djY2IODg+bm5paWlnl5eeLi4oyMjKmpqdXV1dvb28/Pz////////wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABgALAAAAAAZARUAAAX/ICaOGJFYaKqubOu+cCzPdG3feK7vPJwQpOBoEChcjsikcslsOp/QqHRKrVqv2Kx2Gy0EBkKRgMEtm8/otHrNTjMEQYGjTa/b7/h82gEfVfSAgYKDhGcVQ0sLBhAAEAYLhZGSk5RqYBgBSgsNAA0GnA2QlaOkpaZHASVGSQYACEgIABOntLW2eAUmSxASShIHt8HCw1snSwAGSq3EzM3OSyhLBw9KD8DP2Nm30UoKrrAACtrj5KMWCYmcCgbeAAcR5fHygT+rSQvtAA8A7vDz/wDV5MIUJVa/gAgTZkmFYYAUg70USpz45BKGPwUPiKPIseOhEXI6ihzphE8cMiRTMI58E6ZhEZUwEXqx2LIEAwsUKujcybOnz59AgwodSrSo0aNIkypdyrSpU58ofoQJAQA7) no-repeat center center;border-bottom:1px solid #ccc;height:20px;padding:4px 10px;text-align:center}* html #at16psf input,:first-child+html #at16psf input{padding:0}#at16psf input,#at16psf input:focus{background:#fff;border:none;width:220px;margin:2px 0 0;color:#666;outline-style:none;outline-width:0;padding:2px 0 0;line-height:9pt;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt}#at16pcc .at_error,#at16recap .at_error{background:#f26d7d;border-bottom:1px solid #df5666;padding:5px 10px;color:#fff}#at16pcc #at_success{background:#d0fbda;border-bottom:1px solid #a8e7b7;padding:5px 10px;color:#4c4c4c}#at_complete{font-size:13pt;color:#47731d;text-align:center;padding-top:130px;height:13pc!important;width:472px}#at_s_msg{margin-bottom:10px}.atabout{left:55px}.ac-about{right:20px}.at_baa{display:block;overflow:hidden;outline:0}#at15s #at16pf a{top:1px}#at16pc form #at_send{width:5pc!important}#at16pp{color:#4c4c4c;position:absolute;top:9pt;right:9pt;font-size:11px}#at16pp label{font-size:11px!important}#at16ppc{padding:10px;width:179px}#at16pph{padding:5px 0 10px}#at16pph select{margin:5px 0 8px}#at16pp .atinp{width:156px}#at16ppb{background:#fff;border:1px solid #ccc;height:274px}#at16ep{height:1pc;padding:8px}#at16ep a{display:block;height:1pc;line-height:1pc;padding-left:22px;margin-bottom:8px;font-size:9pt}#at16ep a.at_gmail{background:url(data:image/gif;base64,R0lGODlhEAAQALMPAPKqo95TU+NkY/TCwP74+PbX1/zo59wtJ/nx7uZ7fvnRzfCTgvq2td9DQf///////yH5BAEAAA8ALAAAAAAQABAAAARi8MlJq700hMS6/4vWNIdQOERKOMgyvqSgOLRjJAe8CUcw0ApeYyF4DQpCwCDQGyCKo59BGDtNjbRBIvazQRtSxgCwGDAMrO/AcK7ZztcRoO1+B43oOs0Qb8w/gAxFGISFFREAOw==) no-repeat left}#at16ep a.at_hotmail{background:url(data:image/gif;base64,R0lGODlhEAAQAMQfAP7XFG7B4/zjl/JZIAm7TK7V7v3FY/aLRGDNhOqmkA2ql/2YJvfr2Pn7++9vWtXe6/jQvOfw9funZg2EzEWv3zil0heg0zDCbESHx9PpxY6TvJ3QpPJtQf7+/v///////yH5BAEAAB8ALAAAAAAQABAAAAWO4CeOpNhAUFeuzDEMiRepK/S+XDBVjzd6kAWHc3tMjpVZhyE8cByvDsViOQYehsPCSeR8IpQpFZMwGCQHl/dToAQoionGLEHDRJ5CoHJRkM92ED8FCgQEGHNoDgsCJB4XhgpzZwsAjSQZFxcIGgCengwlHRsIpQKfAg0rHQiGEacGqisfDZsdtzSzHz4rIQA7) no-repeat left}#at16ep a.at_yahoo{background:url(data:image/gif;base64,R0lGODlhEAAQAKIHAPylpevx8bsICNJfX/jQ0Kahof8AAP///yH5BAEAAAcALAAAAAAQABAAAANJeLrc/jAuAmolcQhjhBiBBRDDAChAVxzE5g3csKRGQQpFqDL0fsCCQCOFUwR8vI7wECgtjQDg6CfA8DxYmWbVCHi/TK9kTC4zEgA7) no-repeat left}#at16ppf p#atsb{padding-top:20px;font-size:10px}#at16abr{margin-top:10px}#at16abr input{padding:0;margin:0;margin-right:5px}#at16ppso{display:none;text-align:right;margin-top:2px}#at16ppa{background:#fff;border:1px solid #ccc;height:228px;width:178px;overflow:auto}#at16ppa a{display:block;white-space:nowrap;padding:4px 8px;font-size:9pt!important}#at16eatdr{position:absolute;background:#fff;border-top:0;max-height:110px;overflow:auto;z-index:500;top:129px;left:21px;width:277px}* html #at_email #at16eatdr,:first-child+html #at_email #at16eatdr{top:115px!important;width:17pc!important}#at16eatdr a{display:block;overflow:hidden;border-bottom:1px dotted #eee;padding:4px 8px}#at16eatdr a.hover,#at16eatdr a:hover{background:#e0eefa;text-decoration:none;color:#333}#at_pspromo{height:130px;padding-top:10px}#at15psp,#at_pspromo{width:205px;padding-left:5px}#at_testpromo{font-size:9pt;width:220px;display:none}.atm-i #at_pspromo{height:150px}.atm-i #at_pspromo,.atm-i #at_testpromo{width:140px}#at_testpromo input{width:200px}#at_promo .at-promo-content,#at_testpromo .at-promo-content{margin-top:9pt}#at_promo .at-promo-btn,#at_testpromo .at-promo-btn{padding-top:10px}#at_promo h4,#at_testpromo h4{font-family:arial,helvetica,tahoma,verdana,sans-serif;background:0;font-size:14px;font-weight:700;margin:0 0 4px;padding:0;line-height:18px;height:36px}.atm-i #at_promo h4,.atm-i #at_testpromo h4{height:66px}#at_testpromo h4{font-size:13.5px}#at_promo h4 sup{font-size:11px;color:#ee6a44}#at_promo span{display:block}#_atssh{width:1px!important;height:1px!important;border:0!important}.at-promo-single{padding:10px;padding-top:2px;line-height:1.5em}.at-promo-single img{padding:3px}.at-promo-content img{margin-right:5px;margin-bottom:20px;float:left}.addthis_textshare{display:block;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABKCAYAAAAYJRJMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABmNJREFUeNrsmk9oI3UUx99vZjL5n7TbukLbxYve1INa8KAi6F48ubAHV2+KWCoqyF4WpZZ6cuthq1gKe1oU9+CCoLjg+uciCEWQPSjuReyy7Vq7W7LNJM0kM5nxvV9+U5JNk/xCm8wmMw8ek06TXyafee/93u83XwY1Y+jKwsLCiUwm87Gqqg8oigJBMsdxoFqtXs/n86fn5ua+plPoLhNw1NnZ2ZPZbPai67pgWRbQMUjGGINIJMKPOzs7p5aXly/h6apGkYMexZOLSA/K5TKYpgm2bQcKkKZpEIvFIBqNUnAs4qlv0U0CpKInt7a2pjC1+JuDBoeMsobcMAxKtSliQqcJEHmSIofCK8hGgMhEeSFABS+CopVKJfCAPBOAosRG82awEFATIKrNTPOKuAyg54/p8O6Lz0AylgKnVAEo4WxXruKIdW9SGBSNPCz9+jv8uFUdZEAchgcIZAC98+wjMK644Nz8B9x8GcCogFvarQHC6g9ModEhHk/CWw/eD5fX1wYZEDQAkinSCasCzvYdcAwsZgWLR6H78ttgRxDOd1+AbuTAxZnQrZiQsC0+5tAAkomgqmGCi/0C5EuYk5heWMKSj06DFU9B8fKXwBAgRHRe2qr4JTTm0ADyprj2gMocgJPIQnUkhhmlAMPBGEaLmRkDB18r2LJHSwb/kkEF1NBAdgPIMTFqbBOiL7wCypPP1apYMg0RPIzNvs+hFK6uAlz8hC9kZMYcKkBAk1KEpjwTtGKeF3oWT2ApUkEvl8Ct2qBZou5gLQoeIPzRDAty5colqHz/FQeTPHMObKxBhU8/AH17k69pIJ3ka+GhAoTrj84ppqje3gC6eD8WZBfP8887uIajFXEGZzXLkRpzYADRfkjHANIwv1yH9gZ49FDfY63+DI4eraVWIopwYgAp/NtmUmMODCAZy+EqfyyVxS66KKhWofLN55yXnsK0ymI9SscgMn4Ecuvrw7EN0s2b3/tpFT48/hSMJBKw1ypo0VrhjmtYn3SEpUJ+YxPOXPhhODbS0DPox9D/CJepDfYw+g0l5NDeQkAhoMMBRCV3LcSxZ2uCCQfkikXEEnopZMMZLAkmLrXGfE8anR5lUPNyH/rRgML5E/08+m/oW+iGJsBQ53dL/OM6ekr0SL3YpGYicl9Cf6zLz/6LfgH9NjRu9B54C0hwKAgwtwQT27tYiqARET1j6Gl0vUeAFDE2PVZ5Df0Jyc/dRD8nLr7spcAhAqLNKwN9W3zHHfoeVndH6aIT4sJjPYwgSum4uBGUyrPo0xJwzorovi3utNWDCDJF5OwKYA6jTS5W22tl4uK9Z2W9agEUcQOOoE+gT6K/2QYSwfkI/W/x+pb4AdVDTjNHjGl7Y5OxfosUxM2IiDpHETTVBlI9nBvo/6Hv0N3F6+7LVkHfG0W3dkesuoJIM+cG+mdikmgFZ7PfcPgN9Uvm0iKSJkQkTYqaUw8n3284vgJqAYkAjYsamBNR5BucrveDepFuyMhLNxDF0RCpnxdTrm9wfI+gfSIpJloAJnqdkp9w7hlAdZAUkV7etOv4CQfqGkF+cSsrKyfS6TQXcQZNCkOBQiJOwzBOz8zMNIs45+fnT46OjnIRJ0nwgijipGd6dMzlcqeQR6OIs1gsLpZKJf48nVQZw/BMq6v1j6pyAaeu6/S4qlnEub29PeVpo4MGxzNPbIGAmkWcGEEQNPF4y0VZ7YFno4iTtNEhoAZAjSLOEFAToEYRJxXoToCePurCG8cfh2QsCc4uNsDm/iLO3YIB569eg192tEEG1CjipAjq1Pu8Pv0QjDEHnI32Is5YPAmvTqTgymZuYHuiprUYRVAnQHHLlBdx4oxAYwYKkE0iTlVOxGm7MFyAZFLMIRGnJifipFSjMYcGkIym2SFlvSYr4hxcQPvuB8kA4utqJifipFo0qELyfQFJaZoVrSsR51DppGV+jOP1SZIizqECFIo4OwCSsVDE2cFCEWdo9RaKOGUsBBQCOhxAoYiz0dYgFHG2tFDE2cZCEWerdTiEIs6OgEIRp0QENYs468I+FHHeJeIEIV7wY3lzYBGn+EE9N9Wn2cK7W5Y4ErRrAtRkCzh7Urx+wfETUCtIf9UBOus3HOhRET5IurUVcfYbTtf7QT2wes00QBsRpx9w7oUIujuS9hVx+gWHX1jQpHbd2v8CDAAwldUwLVojIgAAAABJRU5ErkJggg==) no-repeat 0 0;width:44px;height:37px;line-height:28px;padding:0 0 0 28px;margin:0;text-decoration:none;font-family:helvetica,arial,sans-serif;font-size:9pt;color:#fff;cursor:pointer}.addthis_textshare:hover{background-position:0 -37px;text-decoration:none}.at_img_share{position:absolute;opacity:0;background:url(data:image/gif;base64,R0lGODlhFwAVAMQAAP7+/vLy8vv7+/X19fj4+Pz8/PHx8f39/fDw8O/v7/T09Pn5+fPz8/r6+vb29vf394CAgHZ2dm5ubklJSWRkZFtbW39/f4KCglJSUnt7e3h4eAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAXABUAAAWLICCOZGmeaAocbOu+MFvMdG3fs6DvfO//PY0QqGsYj8iMEslsLJ7QqGUarS4I2Kz2wtV6vwSIeEyGfB/odGTNbkfSaYd8Lqnb75L5fMDv+ymAfoKDghWGhH0KiouMGI6MkAoMk5SVE5eVmQwBnJ2en6ChoqMBBqanqKmqpgitrq+wsa0JtLW2t7i0IQA7) repeat-x bottom;border:1px solid #ccc;width:23px;height:21px;line-height:21px;text-indent:-9999px;padding:0;margin:0;cursor:pointer;z-index:1000}.at_img_share:hover{border-color:#8b8b8b}.at_img_share .addthis_toolbox{width:180px;margin:0 auto}.atm{width:10pc!important;padding:0;margin:0;line-height:9pt;letter-spacing:normal;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#444;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);padding:4px}.atm-f{text-align:right;border-top:1px solid #ddd;padding:5px 8px}.atm-i{background:#fff;border:1px solid #d5d6d6;padding:0;margin:0;box-shadow:1px 1px 5px rgba(0,0,0,.15)}.atm-s{margin:0!important;padding:0!important}.atm-s a:focus{border:transparent;outline:0;-webkit-transition:none;transition:none}#at_hover.atm-s a,.atm-s a{display:block;text-decoration:none;padding:4px 10px;color:#235dab!important;font-weight:400;font-style:normal;-webkit-transition:none;transition:none}#at_hover.atm-s .at_bold{color:#235dab!important}#at_hover.atm-s a:hover,.atm-s a:hover{background:#2095f0;text-decoration:none;color:#fff!important}#at_hover.atm-s .at_bold{font-weight:700}#at_hover.atm-s a:hover .at_bold{color:#fff!important}.atm-s a .at-label{vertical-align:middle;margin-left:5px;direction:ltr}.atm-i #atic_settings{border:none!important;border-top:1px solid #d5d6d6!important;padding-top:6px!important;top:4px}.at_a11y{position:absolute!important;top:auto!important;width:1px!important;height:1px!important;overflow:hidden!important}.at_a11y_container{margin:0;padding:0}.addthis_overlay_container{position:absolute}.addthis_overlay_toolbox{-webkit-border-top-left-radius:10px;-webkit-border-top-right-radius:10px;-moz-border-radius-topleft:10px;-moz-border-radius-topright:10px;border-top-left-radius:10px;border-top-right-radius:10px;padding:5px;background-color:#000;background-color:rgba(0,0,0,.6)}.linkServiceDiv{height:200px;width:25pc;border:1px solid #000;background-color:#aaa}.at_redloading{background:url(data:image/gif;base64,R0lGODlhCgAKAJEDAMzMzP9mZv8AAP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAADACwAAAAACgAKAAACF5wncgaAGgJzJ647cWua4sOBFEd62VEAACH5BAUAAAMALAEAAAAIAAMAAAIKnBM2IoMDAFMQFAAh+QQFAAADACwAAAAABgAGAAACDJwHMBGofKIRItJYAAAh+QQFAAADACwAAAEAAwAIAAACChxgOBPBvpYQYxYAIfkEBQAAAwAsAAAEAAYABgAAAgoEhmPJHOGgEGwWACH5BAUAAAMALAEABwAIAAMAAAIKBIYjYhOhRHqpAAAh+QQFAAADACwEAAQABgAGAAACDJwncqi7EQYAA0p6CgAh+QQJAAADACwHAAEAAwAIAAACCpRmoxoxvQAYchQAOw==);height:1pc;width:1pc;background-repeat:no-repeat;margin:0 auto}.at-promo-single-dl-ch{width:90pt;height:37px}.at-promo-single-dl-ff{width:90pt;height:44px}.at-promo-single-dl-saf{width:90pt;height:3pc}.at-promo-single-dl-ie{width:129px;height:51px}.atPinBox{position:fixed;top:25%;left:35%;background:#fff;width:482px;margin:0 auto;overflow:auto;overflow-x:hidden;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;padding:8px;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#cfcaca;z-index:10000001}.atPinHdr,.atPinWinHdr{display:block;background:#f1f1f1;border-bottom:1px solid #ccc;box-shadow:0 0 3px rgba(0,0,0,.1);-webkit-box-shadow:0 0 3px rgba(0,0,0,.1);-moz-box-shadow:0 0 3px rgba(0,0,0,.1);padding:8px 10px;font-size:1pc;line-height:1pc;color:#8c7e7e}.atPinHdr img,.atPinWinHdr img{vertical-align:bottom;margin-left:5px;cursor:pointer}.atPinHdr span{vertical-align:top}.atPinHdr{height:1pc}.atPinMn{background:#fff;padding:10px;height:296px;overflow:auto;overflow-x:hidden;text-align:center;position:relative}.atPinHdrMsg{left:20px}.atPinClose{width:9pt;text-align:right;font-weight:700;position:absolute;right:15px;cursor:pointer}.atImgSpanOuter{position:relative;overflow:hidden;height:200px;width:200px;border:1px solid #a0a0a0;float:left;display:block;margin:10px;background-color:#fff}.atImgSpanInner img{cursor:pointer}.atImgSpanSize{position:absolute;bottom:0;left:0;right:0;display:block;background:#fff;height:22px;line-height:24px;color:#000;overflow:hidden;font-size:10px;zoom:1;filter:alpha(opacity=70);opacity:.7}.atImgActBtn{display:none;width:2pc;height:2pc;position:absolute;top:75px;left:5pc;background-color:#fff}.atPinWin{font-family:arial,helvetica,tahoma,verdana,sans-serif;text-align:center}.atPinWinHdr{display:block;font-size:20px;height:20px;width:100%;position:fixed;z-index:1}.atPinWinMn{text-align:center;padding:40px 0 0;display:inline-block}.atImgIco,.atImgMsg{float:left}.atImgIco{margin-right:5px}.atNoImg{display:block;margin-top:40px;font-size:1pc;line-height:1pc;color:#8c7e7e}.at_PinItButton{display:block;width:40px;height:20px;padding:0;margin:0;background-image:url(//s7.addthis.com/static/t00/pinit00.png);background-repeat:no-repeat}.at_PinItButton:hover{background-position:0 -20px}.addthis_toolbox .addthis_button_pinterest_pinit{position:relative}.at-share-tbx-element .fb_iframe_widget span{vertical-align:baseline!important}.at3PinWinMn{text-align:center;padding:20px 0 0 20px;overflow:auto;height:437px}.at3ImgSpanOuter{position:relative;width:185px;height:185px;border:1px solid #dedede;margin:0 10px 10px 0;overflow:hidden;float:left}.at3ImgSpanOuter:hover{border-color:#3dadfc;box-shadow:0 0 3px #3dadfc;cursor:pointer}.at3ImgSpanOuter .atImgLB{display:block;position:absolute;top:0;bottom:0;left:0;right:0;z-index:1;background-color:rgba(0,0,0,.8);background-repeat:no-repeat;background-position:center center}#at3lb{position:fixed;top:0;right:0;left:0;bottom:0;z-index:16777270;display:none}.at3lblight{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpizCuu/sRABGBiIBKMKqSOQoAAAwC8KgJipENhxwAAAABJRU5ErkJggg==);background:hsla(217,6%,46%,.65)}.at3lbdark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBg2M9ABGBiIBKMKqSOQoAAAwBAlwDTJEe1aAAAAABJRU5ErkJggg==);background:rgba(0,0,0,.5)}.at3lbnone{background:hsla(0,0%,100%,0)}#at3win{position:fixed;_position:absolute;top:15%;left:50%;margin-left:-20pc;background:#fff;border:1px solid #d2d2d1;width:40pc;box-shadow:0 0 8px 4px rgba(0,0,0,.25);font-family:helvetica neue,helvetica,arial,sans-serif;z-index:16777271;display:none;overflow:hidden}#at3win #at3winheader{position:relative;border-bottom:1px solid #d2d2d1;background:#f1f1f1;height:49px;cursor:default}#at3win #at3winheader p{position:absolute;top:1pc;left:75pt;width:475px;padding:0;margin:0;font-size:14px;line-height:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#at3win #at3winheader h3{height:49px;text-align:left;line-height:49px;margin:0 50px 0 22px;border:0;padding:0 20px;font-size:1pc;font-family:helvetica neue,helvetica,arial,sans-serif;font-weight:700;text-shadow:0 1px #fff;color:#333;direction:ltr}#at3win #at3winheader h3.logoaddthis{padding-left:22px}#at3win #at3winheader .at3winheadersvc{display:inline-block;position:absolute;top:15px;left:20px;cursor:default!important;opacity:1!important}#at3win #at3winheader .at3winheadersvc .at-icon,#at3win #at3winheader .at3winheadersvc .at-icon-wrapper{display:block}#at3win #at3winheader #at3winheaderclose{display:block;position:absolute;top:0;right:0;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2tpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wUmlnaHRzPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvcmlnaHRzLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcFJpZ2h0czpNYXJrZWQ9IkZhbHNlIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjQwNzc2QTQ5Qjk1RDExRTFCMkE4OEUxNTUwRjMwREY0IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQwNzc2QTQ4Qjk1RDExRTFCMkE4OEUxNTUwRjMwREY0IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzMgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InV1aWQ6OEE1QUU0REMzMEU4REYxMUJCNzJGQkJCQzlBM0Y1RkMiIHN0UmVmOmRvY3VtZW50SUQ9InV1aWQ6M0M5RkJGRTEyQUU4REYxMUJCNzJGQkJCQzlBM0Y1RkMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz78RHhFAAAApUlEQVR42rxTiQnAIAxU6QAdxRW6iZ1EnKRu4gqO0g1sCilEvT7Q0kBQ9O4wl6hLKepNGPUyhmMTQhhpSZTZez8jMGEWWizlRJi1fUHiS8dARHaMSaiELPaViCB3WC1NBMB4CMozWaJuuwBE1BkZdoEB8Qn5kzaaC7fbgN0xN+TYlNOJmCvyXjPwpBKRL7BnhgERiwQmHhDothDJjMVz8Ptv3AQYAJWjVVdnlDZCAAAAAElFTkSuQmCC);background-repeat:no-repeat;background-position:center center;border-left:1px solid #d2d2d1;width:49px;height:49px;line-height:49px;overflow:hidden;text-indent:-9999px;text-shadow:none;cursor:pointer}#at3win #at3winheader #at3winheaderclose:hover{background-color:#dedede}#at3win #at3wincontent{height:450px;position:relative}#at3wincopy,#at3winemail,#at3winshare{height:450px}#ate-promo .addthis_button_twitter .aticon-twitter{background-position:0 -4pc!important}#at3wincontent{-o-box-sizing:content-box;box-sizing:content-box}#at3win #at3wincontent.at3nowin{position:relative;height:25pc;padding:20px;overflow:auto}#at3winfooter{position:relative;background:#fff;-o-box-sizing:content-box;box-sizing:content-box;border-top:1px solid #d2d2d1;height:11px;_height:20px;line-height:11px;padding:5px 20px;font-size:11px;color:#666}#at3winfooter a{margin-right:10px;text-decoration:none;color:#666;float:left}#at3winfooter a:hover{text-decoration:none;color:#000}#at3logo{background:url(//s7.addthis.com/static/t00/at3logo-sm.gif) no-repeat left center!important;padding-left:10px}#at3privacy{position:absolute;top:5px;right:10px;background:url(//s7.addthis.com/static/t00/at3-privacy.gif) no-repeat right center!important;padding-right:14px}#at3winfilter{background:#f1f1f1;border-top:1px solid #fff;border-bottom:1px solid #d2d2d1;padding:13px 0;text-align:center}#at3winsvc-filter{background-repeat:no-repeat;background-position:right;background-image:url(data:image/gif;base64,R0lGODlhHgAUALMAAJiYmHV1deTk5Kmpqbe3t9nZ2Y2Njfn5+fT09Ozs7MnJyYGBgWpqav39/WZmZv///yH5BAAAAAAALAAAAAAeABQAAASi8MlXxgoLqDa7/xICOGTpLAKoTshCMsZgBG+6gqNjJA93DAxH4HDzCEgGTqdBIBGKnSYjoewcXAvoZJRVDUhErcEBWClIPC1X1fg6ENrHl4GoThquQJxCKn+kA3sPY2QHSkwMQQJ2Nw0INEIABBYmATZxCQtBJpyWgg0KBkEMCwQKm0KXgoYTBaiegh8NriUBabFLtH24Hg2zm368HgULKDcRADs=);border:1px solid #d2d2d1;padding:15px 38px 15px 9pt;margin:0 auto;width:374px;text-align:left;font-size:18px;border-radius:5px;box-shadow:inset 0 1px 2px rgba(0,0,0,.1);-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);color:#666}#service-filter:hover{border-color:#9c9c9c}#service-filter:focus{border-color:#3dadfc;box-shadow:0 0 4px rgba(61,173,252,.8);-webkit-box-shadow:0 0 4px rgba(61,173,252,.8);-moz-box-shadow:0 0 4px rgba(61,173,252,.8);outline:0}#at3wintoolbox{margin:0 0 0 20px;height:340px;overflow:auto;padding:10px 0}#at3wintoolbox a{display:block;float:left;width:180px;padding:4px;margin-bottom:10px;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;font-size:1pc;color:#235dab}#at3wintoolbox a:focus,#at3wintoolbox a:hover{background-color:#2095f0}#at3wintoolbox a:focus,#at3wintoolbox a:hover,#at3wintoolbox span:hover{text-decoration:none;color:#fff;font-weight:400;text-shadow:none;opacity:1;filter:alpha(opacity=100);cursor:pointer}#at3wintoolbox span{display:block;height:2pc;line-height:2pc;padding-left:38px!important;width:auto!important}.service-icon{padding:4px 8px}.service-icon:hover{background:#2095f0;color:#fff}.service-icon span{padding-left:20px}#at3winssi{position:absolute;right:50px;top:0;height:50px;display:block}.at-quickshare-header-peep{position:absolute;top:0;right:34px;height:1pc;padding:6px;border-left:1px solid #dedede;cursor:pointer}.at-quickshare-header-peep.peep-active{background:#dedede;cursor:default}.at-quickshare-header-peep span{display:inline-block;background:url(data:image/gif;base64,R0lGODlhBwAEAIABALm5uf///yH5BAEAAAEALAAAAAAHAAQAAAIIhA+BGWoNWSgAOw==) no-repeat right;padding-right:11px}.at-quickshare-header-peep span img{display:block;background:#ccc;width:1pc;height:1pc;line-height:20px;overflow:hidden;text-indent:-9999px;border:1px solid #bbb;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}.at-quickshare-header-peep ul{position:absolute;top:25px;left:-75px;width:140px;background:#fff;border:1px solid #bbb;border-radius:4px;box-shadow:0 1px 4px hsla(0,0%,40%,.8);margin:0;padding:0;font-weight:400;z-index:1100}.at-quickshare-header-peep ul li{list-style:none;font-size:9pt;padding:0;margin:0;text-align:left}.at-quickshare-menu{outline:0}.at-quickshare-menu li.at-quickshare-menu-sep{border-bottom:1px solid #dedede}.at-quickshare-header-peep ul li a{display:block;padding:5px 10px;text-decoration:none;color:#666}.at-quickshare-header-peep ul li a:hover{background:#0d98fb;text-decoration:none;color:#fff}#at_auth{position:relative;box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-o-box-sizing:content-box;border-top:1px solid #d5d6d6!important;padding:10px 10px 7px;line-height:1pc;height:1pc}#atic_signin{cursor:pointer}#atic_signin,#atic_signin:hover{text-decoration:none}#atic_signin #at_auth:hover{background:#2095f0;text-decoration:none;color:#fff!important}#atic_usersettings{cursor:pointer}#atic_usersettings:hover{text-decoration:underline}#atic_usersignout{font-size:11px;position:absolute;top:10px;right:10px;cursor:pointer}#atic_usersignout:hover{text-decoration:underline}#at_auth img{width:1pc;height:1pc;overflow:hidden;border:none;padding:0;margin:0 5px 0 0;float:left}#at_auth a{text-decoration:none}#at16pf{height:auto;text-align:right;padding:4px 8px}@media screen and (max-width:680px){#at3win{width:95%;left:auto;margin-left:auto}}@media print{#at3win,#at4-follow,#at4-share,#at4-thankyou,#at4-whatsnext,#at4m-mobile,#at15s,#at-recommendedside,.at4,.at4-recommended{display:none!important}}@media screen and (max-width:400px){.at4win{width:100%}.addthis_bar .addthis_bar_p{margin-right:auto}}@media screen and (max-height:700px) and (max-width:400px){.at4-thankyou-inner .at4-recommended-container{height:122px;overflow:hidden}.at4-thankyou-inner .at4-recommended .at4-recommended-item:first-child{border-bottom:1px solid #c5c5c5}}</style><style type="text/css">.at-icon{fill:#fff;border:0}.at-icon-wrapper{display:inline-block;overflow:hidden}a .at-icon-wrapper{cursor:pointer}.at-rounded,.at-rounded-element .at-icon-wrapper{border-radius:12%}.at-circular,.at-circular-element .at-icon-wrapper{border-radius:50%}.addthis_32x32_style .at-icon{width:2pc;height:2pc}.addthis_24x24_style .at-icon{width:24px;height:24px}.addthis_20x20_style .at-icon{width:20px;height:20px}.addthis_16x16_style .at-icon{width:1pc;height:1pc}</style><style type="text/css">.at-branding-logo{font-family:helvetica,arial,sans-serif;text-decoration:none;font-size:10px;display:inline-block;margin:2px 0;letter-spacing:.2px}.at-branding-logo .at-branding-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////+GlNUkcc1QAAAB1JREFUeNpiYIQDBjQmAwMmkwEM0JnY1WIxFyDAABGeAFEudiZsAAAAAElFTkSuQmCC")}.at-branding-logo .at-branding-icon,.at-branding-logo .at-privacy-icon{display:inline-block;height:10px;width:10px;margin-left:4px;margin-right:3px;margin-bottom:-1px;background-repeat:no-repeat}.at-branding-logo .at-privacy-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAMAAABR24SMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRF8fr9ot/xXcfn2/P5AKva////////AKTWodjhjAAAAAd0Uk5T////////ABpLA0YAAAA6SURBVHjaJMzBDQAwCAJAQaj7b9xifV0kUKJ9ciWxlzWEWI5gMF65KUTv0VKkjVeTerqE/x7+9BVgAEXbAWI8QDcfAAAAAElFTkSuQmCC")}.at-branding-logo span{text-decoration:none}.at-branding-logo .at-branding-addthis,.at-branding-logo .at-branding-powered-by{color:#666}.at-branding-logo .at-branding-addthis:hover{color:#333}.at-cv-with-image .at-branding-addthis,.at-cv-with-image .at-branding-addthis:hover{color:#fff}a.at-branding-logo:visited{color:initial}.at-branding-info{display:inline-block;padding:0 5px;color:#666;border:1px solid #666;border-radius:50%;font-size:10px;line-height:9pt;opacity:.7;transition:all .3s ease;text-decoration:none}.at-branding-info span{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.at-branding-info:before{content:'i';font-family:Times New Roman}.at-branding-info:hover{color:#0780df;border-color:#0780df}</style></head>
+<body data-controller="index" data-action="show" data-fb-app-id="318962828183539" class="show guest app_tools_placeholder app_tools_popup app_common_userbox app_show_theme10">
+
+
+
+
+<script type="text/javascript">
+    var LinkData = {
+        id: "183031962",
+        shortUrl: "fB7tG",
+        longUrl: "http://matome.naver.jp/odai/2145681850878026001",
+        fullShortPath: "/matome.naver.jp/odai/fB7tG",
+        baseAliasLink: "http://ln.is/matome.naver.jp/odai/fB7tG",
+        baseShortAliasLink: "http://ln.is/matome.naver.jp/odai/fB7tG",
+        caption: "これは痩せそう！いま、女子に話題の「アボカドファースト」",
+        twitterStatusId: "707480674404532224",
+        show_retweet: 0,
+        has_rtpls: false,
+        http_referer: 'http://linkis.com/matome.naver.jp/odai/fB7tG',
+        sync_referer: 'http://linkis.com/matome.naver.jp/odai/fB7tG',
+
+        inherit: "1",
+        showForcePopup: false,
+        is_author: "", /* перезписывается при загрузке другого кепшина */
+        author_id: "1300396",
+        current_link_is_author: "",
+        current_link_caption: "これは痩せそう！いま、女子に話題の「アボカドファースト」",
+        isLogged: false,
+        isTwitterLogged: false,
+        isFacebookLogged: false,
+        isFacebookOnlyLogged: false,
+        needSignIn: false,
+        delayedActionComplete: "",
+        isShowNotificationPopup: false,
+        curTheme: 10,
+        parentTheme: 10,
+        originalTitle: "これは痩せそう！いま、女子に話題の「アボカドファースト」 - NAVER まとめ",
+        show_aw_popup: 1,
+        isMobile: "",
+        isLightVersion: 0,
+        popupTimer: 3000, // 3 sec
+        popupTest: 0,
+        isAuthorTwUser: true,
+        isAuthorFbUser: false,
+        promoLink: null,
+        linkHash: '93f6d2adc86a04b41ac1b898b23e2503',
+        userAvatar: '',
+        processTwitterDelayedAction: false,
+        twitterDelayedAction: '',
+        twitterDelayedMsg: '',
+        authUserName: '',
+        authScreenName: '',
+        isRetweeted: 0,
+        clickRowId: 0,
+        saveClientStat: 1,
+        appleStoreRedirect: 0,
+        visitFromTwitter: true,
+        showPluginPopup: 1,
+        showSilentPopup: 1,
+        isExpress: 0,
+        autopostVersion: '',
+                                        graylistLabel: "",
+        advertisementBanner: 1,
+        showUserLinkVisitorsBtn: 0    };
+
+</script>
+<script type="text/javascript">
+
+    /** @var Themes */
+    var Themes = {
+        THEME_5: 5,
+        THEME_6: 6,
+        THEME_7: 7,
+        THEME_8: 8,
+        THEME_10: 10,
+        THEME_11: 11,
+        THEME_12: 12,
+        THEME_13: 13,
+        THEME_14: 14,
+        THEME_15: 15,
+        THEME_16: 16,
+        THEME_17: 17,
+    };
+
+
+    var Popups = [{"name":"tweet-retweet10","selector":".js-tweet-retweet10"}];
+
+    var LNG = LNG || {};
+    LNG['caption.tooLong'] = "Your caption is too long. It should be less than 120 characters!";
+    LNG['caption'] = "Caption";
+    LNG['popup.shareCaption'] = "Share caption";
+    LNG['popup.shareLink'] = "Share link";
+    LNG['popup.close'] = "Close";
+    LNG['popup.addCaption'] = "Create new link with your caption";
+    LNG['popup.pleaseSelectSocNet'] = "Please, select a social network";
+    LNG['popup.siginOrRegisterDot'] = "Sign in or Register via social networks.";
+    LNG['popup.repeatedTweetMessage'] = "Tweet is duplicated. Try to change your share message.";
+    LNG['popup.repeatedFacebookMessage'] = "Facebook status is duplicated. Try to change your share message.";
+    LNG['popup.shareTwitterGeneralError'] = "Sharing to Twitter failed.";
+    LNG['popup.shareFacebookGeneralError'] = "Sharing to Facebook failed.";
+    LNG['popup.shareGeneralError'] = "Sharing failed.";
+    LNG['share'] = "Share";
+    LNG['publish'] = "Publish";
+    LNG['addYourCaption'] = "Create your caption";
+    LNG['shareThisLink'] = "Share this link";
+    LNG['enterYourCaption'] = "Enter the description for this URL (optional)";
+    LNG['sharedSuccessTw'] = "Link was successfully shared to Twitter";
+    LNG['sharedSuccessFb'] = "Link was successfully shared to Facebook";
+    LNG['share'] = "Share";
+    LNG['show.empty_caption'] = "Empty caption";
+    LNG['reauth.success'] = "Your data was succesfully updated.";
+    LNG['reauth.fail'] = "You data wasn't updated. Try again or please contact us support@notlurking.com";
+    LNG['reauth.reconecting'] = "Reconnecting...";
+    LNG['popup.processing'] = "Processing...";
+    LNG['popup.successMessage'] = "Link was successfully shared";
+    LNG['js.tools.blocker'] = "Please disable your pop-up blocker and redo your last action";
+    LNG['popup.settingsSuccessMessage'] = "Settings were successfully saved";
+    LNG['popup.settingsErrorMessage'] = "Error occurred while saving";
+    LNG['show.enterYourAnswer'] = "Enter your own answer";
+    LNG['show.theme.9.favorite'] = "Favorite";
+    LNG['show.theme.9.favorited'] = "Favorited";
+    LNG['show.theme.9.retweet'] = "Retweet";
+    LNG['show.theme.9.retweeted'] = "Retweeted";
+    LNG['show.theme.10.retweet'] = "Retweet";
+    LNG['show.theme.10.undo_retweet'] = "Undo Retweet";
+    LNG['show.theme.10.rt'] = "RT";
+    LNG['show.10.retweet.unretweet_error'] = "Twitter API is not answering.<br>Please wait 5 sec and try again";
+    LNG['show.10.retweet.disabled_for_owner'] = "Retweet is disabled for owner";
+    LNG['show.10.retweet.not_logged'] = "Sorry, can't retweet.<br/>You are not logged or<br/>your authorization expired.";
+    LNG['auth.session_expired'] = "Your authorization session expired or you are not logged in. Please log in.";
+    LNG['show.popup.input.message'] = "Write your comment (optional)";
+
+
+    var AUTH_PARAMS = {};
+    var THEME_AUTH_PARAMS = {};
+
+    var SHOW_NOTIFICATION = "";
+
+    var TWITTER_ENABLED = true;
+</script>
+
+    <!-- NOTIFICATION LINE -->
+
+
+
+     <div class="iframe-holder">        
+             <iframe id="source_site" src="http://ift.tt/24Q4lr4" data-short="fB7tG" border="0" frameborder="0" hspace="0" vspace="0" width="100%" height="100%" marginheight="0" marginwidth="0" onload="LnProf.iframe()" style="width: 1028px;"></iframe>
+<iframe class="stat-iframe" src="/index/stat/theme/10" style="position: absolute; left: -1000px; top: 0; width: 1px; height: 1px;"></iframe>
+     </div>
+    
+     <div class="show-panel right-panel ">
+         <a class="close-panel js-close-panel" href="#">Close panel</a>
+         <div class="orig-link-holder">
+             <h3>SHARED FROM</h3>
+             <a class="orig-link js-source-link" href="/url/redirect/http://matome.naver.jp/odai/2145681850878026001 " rel="nofollow" title="http://matome.naver.jp/odai/2145681850878026001" target="_blank">http://matome.naver.jp/odai/2145681850878026001</a>
+
+                              <p class="page-data views">
+                     1 views
+                 </p>
+             
+                              <a class="link-more-info" href="http://linkis.com/matome.naver.jp/koreha_shousesouima.html">More information</a>
+                          <div class="likes-holder js-like-box app_show_theme10_likes">
+                 <a href="#" class="thumb-up js-like green-like">
+                        <span class="js-like-value">Like</span>
+                 </a>
+                 <!-- Share block -->
+                 <div class="js-share-stat-block">
+
+  <!-- AddThis Button BEGIN -->
+  <div class="addthis_toolbox addthis_20x20_style" addthis:title="これは痩せそう！いま、女子に話題の「アボカドファースト」 via @Linkis_com" addthis:url="http://ln.is/matome.naver.jp/odai/fB7tG">
+      <a class="addthis_button_compact soc-icon at300m" href="#"><span class="at-icon-wrapper" style="line-height: 20px; height: 20px; width: 20px; background-color: rgb(255, 101, 80);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="Compact" alt="Compact" style="width: 20px; height: 20px;" class="at-icon at-icon-addthis"><g><path d="M18 14V8h-4v6H8v4h6v6h4v-6h6v-4h-6z" fill-rule="evenodd"></path></g></svg></span>Share</a>
+  <div class="atclear"></div></div>
+  <!-- AddThis Button END -->
+</div>
+                                      <div class="retweet-button-holder">
+                         <a href="#" class="retweet-button  active js-tweet-retweet-link" data-retweeted="0" data-id="707480674404532224" title="Retweet">RT</a>
+                         <div class="tooltip-itself">Twitter API is not answering.<br>Please wait 5 sec and try again</div>
+                     </div>
+                 
+             </div>
+         </div>
+         <div class="white-block">
+             
+<div class="promo-box js-promo-box">
+
+        <h3>SHARED BY</h3>
+
+        <p class="js-promo-message"><span></span></p>
+
+                    <a class="promo-avatar" target="_blank" href="https://twitter.com/vip_tyosuke">
+                <img src="http://ec2linkis.s3.amazonaws.com/user_photos/2016-02/1300396/avatar_medium?bb6b" alt="avatar" onerror="restoreUserAvatar(this, 1300396)">
+            </a>
+        
+        <div class="promo-user-data">
+
+                            <p><a href="https://twitter.com/vip_tyosuke" target="_blank">
+                        ちょすけ＠相互フォロー100％                    </a></p>
+                <a class="tw-username" href="https://twitter.com/vip_tyosuke" target="_blank">@vip_tyosuke</a>
+
+                    </div>
+
+                    <div class="soc-data js-stats-social">
+                                                                                    <a class="js-social-link twitter" href="http://twitter.com/vip_tyosuke" title="twitter.com/vip_tyosuke" target="_blank" data-type="twitter" rel="nofollow">
+                            twitter.com/vip_tyosuke                        </a>
+                                                </div>
+        
+                    <div class="caption">
+                これは痩せそう！いま、女子に話題の「アボカドファースト」            </div>
+        
+        <p class="page-data indent">
+            <a href="https://twitter.com/linkis/status/707480674404532224" target="_blank">Shared <span title="9 Mar 2016, 8:19">27 min ago</span></a>        </p>
+</div>         </div>
+
+                         
+             <p class="alert-success js-alert-message" style="display: none;"><span></span></p>
+
+             <div class="js-other-tweets-wrapper other-tweets-wrapper app_show_popup_other_tweets10 loading" style="opacity: 1;">
+                <!-- Other tweets block -->
+                <h3 class="other-tweets-head"><span class="js-tweets-cnt"></span> OTHER TWEETS</h3>
+<div class="tweets-list scroll-pane" data-tweets-cnt="0" data-last-id="0" data-link-hash="93f6d2adc86a04b41ac1b898b23e2503" style="overflow: hidden; padding: 0px; width: 252px;">
+    
+<div class="jspContainer" style="width: 252px; height: 0px;"><div class="jspPane" style="padding: 0px; top: 0px; width: 252px;"><div class="tweets-list-holder">
+    </div></div></div></div>
+<div class="tweet-form js-tweet-form"><p class="be-first">Share your thoughts about this page</p>
+
+    
+    <textarea class="under-tweets small-textarea js-tweet-textarea" placeholder="Tweet about this link"></textarea>
+    <a class="tweet-button js-send-tweet-btn disabled" href="#">Tweet</a>
+    <a class="cancel-tweet js-cancel-tweet-btn" style="display: none" href="#">Cancel</a>
+    <span class="symb-quant" style="display: block;"><span class="current">0</span>/120</span>
+    <img class="spinner js-tweet-spinner" src="/images/theme_10/spinner.gif" alt="wait" style="display: none;">
+</div>
+
+<script type="text/ejs" id="linkReplyEJS">
+    <div class="tweet">
+        <a target="_blank" href="<%= link %>">
+            <div class="tweet-body">
+                <%= caption %>
+            </div>
+        </a>
+
+        <div class="tweet-link">
+            <a target="_blank" href="<%= link %>"><%= linkText %></a>
+        </div>
+
+        <div class="tweet-data">
+            <%= date %>
+            <% if (username == 'Guest') { %>
+                <b>by Guest</b>
+            <% } else {%>
+                <a href="http://twitter.com/<%= screen_name %>" target="_blank"><b>@<%= screen_name %></b></a>
+            <% } %>
+        </div>
+    </div>
+</script>             </div>
+
+             <div class="bottommer">
+             <a class="bottomer-logo" href="/">Linkis</a>
+                <!-- js-before-promo-bottom -->
+                              <a href="javascript:void(0);" class="log-in js-btn-signin-tw js-login-with-theme-panel">Login</a>
+                                  <!--<div class="user-box open">
+                                                    <a href="http://twitter.com/" class="avatar" target="_blank">
+                                <img alt="avatar" src="">
+                            </a>
+                            <span class="username"></span>
+                            <div class="drop-up">
+                                                                            <a class="js-view-stats" href="javascript:void(0);">View stats</a>
+                                                                        <a href="" target="_blank"></a>
+                                    <a href="" target="_blank"></a>
+                                    <a href=""></a>
+                            </div>
+                                                    <div class="avatar"></div>
+                            <span class="username"><a class="popup-auth-trigger" href="#">Log in</a></span>
+                                             </div>-->
+             </div>
+     </div>
+
+<!-- minimizied panel -->
+<div class="right-panel-minimized " style="display: none">
+    <a class="open-panel js-close-panel" href="#">Close panel</a>
+    <a class="settings-icon" href="/settings" target="_blank">Settings</a>
+    <div class="social-icons js-like-box app_show_theme10_likes">
+        <a class="square-like js-like green-like" href="#"><img src="/images/theme_10/like.png" alt="soc-icon"></a>
+
+        <!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_32x32_style" addthis:title="これは痩せそう！いま、女子に話題の「アボカドファースト」 via @Linkis_com" addthis:url="http://ln.is/matome.naver.jp/odai/fB7tG">
+            <a data-network-name="stumbleupon" class="addthis_button_stumbleupon at300b" target="_blank" title="StumbleUpon" href="#"><span class="at-icon-wrapper" style="line-height: 32px; height: 32px; width: 32px; background-color: rgb(230, 82, 41);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="StumbleUpon" alt="StumbleUpon" style="width: 32px; height: 32px;" class="at-icon at-icon-stumbleupon"><g><path d="M16.78 14.23l1.25.58 1.86-.56v-1.3a4.092 4.092 0 0 0-4.09-3.97c-2.21 0-4.01 1.75-4.09 3.94v5.91c0 .54-.43.97-.97.97s-.97-.43-.97-.97v-2.5H6.65v2.54a4.09 4.09 0 0 0 4.09 4.09c2.24 0 4.06-1.8 4.09-4.03v-5.84c0-.54.43-.97.97-.97s.97.43.97.97l.01 1.14zm5.05 2.11v2.62a.97.97 0 0 1-1.94 0v-2.57l-1.86.56-1.25-.58v2.55a4.098 4.098 0 0 0 4.09 4.06 4.09 4.09 0 0 0 4.09-4.09v-2.54l-3.13-.01z"></path></g></svg></span></a>
+            <a data-network-name="twitter" class="addthis_button_twitter at300b" title="Tweet" href="#"><span class="at-icon-wrapper" style="line-height: 32px; height: 32px; width: 32px; background-color: rgb(29, 161, 242);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="Twitter" alt="Twitter" style="width: 32px; height: 32px;" class="at-icon at-icon-twitter"><g><path d="M26.67 9.38c-.78.35-1.63.58-2.51.69.9-.54 1.6-1.4 1.92-2.42-.85.5-1.78.87-2.78 1.06a4.38 4.38 0 0 0-7.57 3c0 .34.04.68.11 1-3.64-.18-6.86-1.93-9.02-4.57-.38.65-.59 1.4-.59 2.2 0 1.52.77 2.86 1.95 3.64-.72-.02-1.39-.22-1.98-.55v.06c0 2.12 1.51 3.89 3.51 4.29a4.37 4.37 0 0 1-1.97.07c.56 1.74 2.17 3 4.09 3.04a8.82 8.82 0 0 1-5.44 1.87c-.35 0-.7-.02-1.04-.06a12.43 12.43 0 0 0 6.71 1.97c8.05 0 12.45-6.67 12.45-12.45 0-.19-.01-.38-.01-.57.84-.62 1.58-1.39 2.17-2.27z"></path></g></svg></span></a>
+            <a data-network-name="facebook" class="addthis_button_facebook at300b" title="Facebook" href="#"><span class="at-icon-wrapper" style="line-height: 32px; height: 32px; width: 32px; background-color: rgb(59, 89, 152);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="Facebook" alt="Facebook" style="width: 32px; height: 32px;" class="at-icon at-icon-facebook"><g><path d="M21 6.144C20.656 6.096 19.472 6 18.097 6c-2.877 0-4.85 1.66-4.85 4.7v2.62H10v3.557h3.247V26h3.895v-9.123h3.234l.497-3.557h-3.73v-2.272c0-1.022.292-1.73 1.858-1.73h2V6.143z" fill-rule="evenodd"></path></g></svg></span></a>
+            <a data-network-name="google+" class="addthis_button_google_plusone_share at300b" target="_blank" title="Google+" href="#"><span class="at-icon-wrapper" style="line-height: 32px; height: 32px; width: 32px; background-color: rgb(220, 78, 65);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="Google+" alt="Google+" style="width: 32px; height: 32px;" class="at-icon at-icon-google_plusone_share"><g><path d="M12 15v2.4h3.97c-.16 1.03-1.2 3.02-3.97 3.02-2.39 0-4.34-1.98-4.34-4.42s1.95-4.42 4.34-4.42c1.36 0 2.27.58 2.79 1.08l1.9-1.83C15.47 9.69 13.89 9 12 9c-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.72-2.84 6.72-6.84 0-.46-.05-.81-.11-1.16H12zm15 0h-2v-2h-2v2h-2v2h2v2h2v-2h2v-2z" fill-rule="evenodd"></path></g></svg></span></a>
+            <a class="addthis_button_compact at300m" href="#"><span class="at-icon-wrapper" style="line-height: 32px; height: 32px; width: 32px; background-color: rgb(255, 101, 80);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="Compact" alt="Compact" style="width: 32px; height: 32px;" class="at-icon at-icon-addthis"><g><path d="M18 14V8h-4v6H8v4h6v6h4v-6h6v-4h-6z" fill-rule="evenodd"></path></g></svg></span></a>
+        <div class="atclear"></div></div>
+        <!-- AddThis Button END -->
+    </div>
+</div>
+
+<!-- POPUPS -->
+<div id="big-popup">
+    <div class="overlay"></div>
+    <div class="popup">
+        <a href="#" class="popup-close js-parent-popup-close"></a>
+
+                    
+            <div class="popup-block popup-block-retweet js-tweet-retweet10 app_show_popup_tweet_retweet10">
+
+    <div class="js-block-main">
+
+        <p class="apprec">
+            <span>@vip_tyosuke</span>
+            would highly appreciate your RT. You can retweet right here by simply clicking on the button below        </p>
+
+        <a href="#" class="retweet-button blue-button js-tweet-retweet-btn-ok">
+            Retweet        </a>
+
+        <div class="disabled-for-owner-msg js-disabled-for-owner-msg">
+            You can't retweet your own tweet        </div>
+
+        <p>
+            <a class="other-time js-tweet-retweet-btn-cancel" href="#">
+                Maybe some other time            </a>
+        </p>
+
+    </div>
+    <div class="js-block-manual" style="display: none;">
+
+        <p class="apprec">
+            We had problem retweeting on your behalf,<br>please retweet manually by clicking<br>the button below        </p>
+
+        <a href="#" class="retweet-button retweet-manual blue-button js-retweet-manually-btn">
+            Retweet manually
+        </a>
+
+    </div>
+    <p class="js-retweet-msg" style="display: none;"><span></span></p>
+</div>
+            
+            </div>
+</div>
+
+<!-- load AW popup for mobile in 6, 7 themes -->
+
+<div class="modal-popup js-modal-popup">
+    <div class="popup-holder">
+	    <div class="popup-header">
+	    	<h3></h3>
+            <p class="header-descr js-theme-description"></p>
+	        <a href="javascript:void(0);" class="popup-close js-popup-close-default">Close</a>
+	    </div>
+        <a href="javascript:void(0);" class="popup-close js-popup-close-default">Close</a>
+
+        <div class="js-popups-html popups-html">
+                    </div>
+
+    </div>
+</div>
+
+
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#async=1&amp;pubid=ra-513082ca32a826c6"></script><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; top: -9999px; z-index: 100000;"><iframe id="_atssh515" title="AddThis utility frame" src="http://s7.addthis.com/static/sh.07f0d9bf220d07a763adad1e.html#rand=0.7817017287269543&amp;iit=1457513203094&amp;tmr=load%3D1457513202656%26core%3D1457513202736%26main%3D1457513203078%26ifr%3D1457513203104&amp;cb=0&amp;cdn=0&amp;md=0&amp;kw=&amp;ab=-&amp;dh=linkis.com&amp;dr=http%3A%2F%2Flinkis.com%2Fmatome.naver.jp%2Fodai%2FfB7tG&amp;du=http%3A%2F%2Flinkis.com%2Fmatome.naver.jp%2Fkoreha_shousesouima.html&amp;href=http%3A%2F%2Flinkis.com%2Fmatome.naver.jp%2Fodai%2FfB7tG&amp;dt=%E3%81%93%E3%82%8C%E3%81%AF%E7%97%A9%E3%81%9B%E3%81%9D%E3%81%86%EF%BC%81%E3%81%84%E3%81%BE%E3%80%81%E5%A5%B3%E5%AD%90%E3%81%AB%E8%A9%B1%E9%A1%8C%E3%81%AE%E3%80%8C%E3%82%A2%E3%83%9C%E3%82%AB%E3%83%89%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%80%8D%20-%20NAVER%20%E3%81%BE%E3%81%A8%E3%82%81&amp;dbg=0&amp;cap=tc%3D0%26ab%3D0&amp;inst=1&amp;jsl=33&amp;prod=undefined&amp;lng=ja&amp;ogt=site_name%2Curl%2Ctype%3Darticle%2Ctitle%2Cdescription%2Cimage&amp;pc=men&amp;pub=ra-513082ca32a826c6&amp;ssl=0&amp;sid=56dfe2f2f9672164&amp;srpl=1&amp;srf=0.01&amp;srx=1&amp;ver=300&amp;xck=0&amp;xtr=0&amp;og=image%3Dhttp%253A%252F%252Frr.img.naver.jp%253A80%252Fmig%253Fsrc%253Dhttp%25253A%25252F%25252Fimgcc.naver.jp%25252Fkaze%25252Fmission%25252FUSER%25252F20160301%25252F17%25252F1421647%25252F10%25252F120x120xe24112eeb463cd6b60b63cc2.jpg%25252F300%25252F600%2526twidth%253D200%2526theight%253D200%2526qlt%253D80%2526res_format%253Djpg%2526op%253Dr%26description%3D%25E6%2598%258E%25E6%2597%25A5%25E3%2581%258B%25E3%2582%2589%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%2588%26title%3D%25E3%2581%2593%25E3%2582%258C%25E3%2581%25AF%25E7%2597%25A9%25E3%2581%259B%25E3%2581%259D%25E3%2581%2586%25EF%25BC%2581%25E3%2581%2584%25E3%2581%25BE%25E3%2580%2581%25E5%25A5%25B3%25E5%25AD%2590%25E3%2581%25AB%25E8%25A9%25B1%25E9%25A1%258C%25E3%2581%25AE%25E3%2580%258C%25E3%2582%25A2%25E3%2583%259C%25E3%2582%25AB%25E3%2583%2589%25E3%2583%2595%25E3%2582%25A1%25E3%2583%25BC%25E3%2582%25B9%25E3%2583%2588%25E3%2580%258D%2520-%2520NAVER%2520%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%26type%3Darticle%26url%3Dhttp%253A%252F%252Fmatome.naver.jp%252Fodai%252F2145681850878026001%26site_name%3DNAVER%2520%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581&amp;csi=undefined&amp;rev=v5.5.2a-wp&amp;ct=1&amp;xld=1&amp;xd=1" style="height: 1px; width: 1px; position: absolute; top: 0px; z-index: 100000; border: 0px; left: 0px;"></iframe></div>
+
+<!-- google api for link share stat chart -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+var LinkShareStat = null;
+var screenName = "\u3061\u3087\u3059\u3051\uff20\u76f8\u4e92\u30d5\u30a9\u30ed\u30fc100\uff05";
+</script>
+
+
+
+    <script type="text/javascript" src="/js/prod/all.js?838"></script><style id="service-icons-0"></style>
+
+
+<div class="advert_block"></div>
+
+
+</body>
